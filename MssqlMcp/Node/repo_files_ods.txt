@@ -1,0 +1,546 @@
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\MANAGEMENT_AND_MONITORING\Create view ODS_RUNMNGT_NEXTRUN.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\source views\Create view Color.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\source views\Create view Costcentre.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\source views\Create view CRMCustomer.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\source views\Create view Customer.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\source views\Create view CustomerCRMAdditionalInformation.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\source views\Create view Employee.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\source views\Create view FuelType.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\source views\Create view Inventory.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\source views\Create view Labour.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\source views\Create view Make.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\source views\Create view Model.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\source views\Create view Organisation.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\source views\Create view Part.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\source views\Create view PartOrderHeaderLine.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\source views\Create view PartOrderType.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\source views\Create view PartStockDetail.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\source views\Create view PONDW_CRMCustomer.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\source views\Create view PONDW_CRMVehicle.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\source views\Create view PONDW_Customer.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\source views\Create view PONDW_Organisation.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\source views\Create view PONDW_PartOrderHeaderLine.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\source views\Create view PONDW_VehicleQuoteTransaction.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\source views\Create view PONDW_VehicleTransaction.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\source views\Create view PONDW_WorkshopOrderHeaderLine.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\source views\Create view Rates.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\source views\Create view RepairCategory.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\source views\Create view RepairGroup.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\source views\Create view Skill.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\source views\Create view Stock.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\source views\Create view Supplier.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\source views\Create view Trim.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\source views\Create view Vehicle.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\source views\Create view VehicleQuoteStatus.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\source views\Create view VehicleQuoteTransaction.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\source views\Create view VehicleSalesType.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\source views\Create view VehicleStatus.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\source views\Create view VehicleTransaction_base.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\source views\Create view VehicleTransaction_Purchase.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\source views\Create view VehicleTransaction.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\source views\Create view VehicleTransactionType.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\source views\Create view VehicleType.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\source views\Create view Workgroup.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\source views\Create view WorkshopOrderHeaderLine.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\Stored procedures\Create Stored Procedure sp_AUTOLINE_Color.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\Stored procedures\Create Stored Procedure sp_AUTOLINE_Costcentre.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\Stored procedures\Create Stored Procedure sp_AUTOLINE_CRMCustomer.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\Stored procedures\Create Stored Procedure sp_AUTOLINE_Customer.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\Stored procedures\Create Stored Procedure sp_AUTOLINE_CustomerCRMAdditionalInformation.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\Stored procedures\Create Stored Procedure sp_AUTOLINE_Employee.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\Stored procedures\Create Stored Procedure sp_AUTOLINE_FuelType.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\Stored procedures\Create Stored Procedure sp_AUTOLINE_Inventory.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\Stored procedures\Create Stored Procedure sp_AUTOLINE_Labour.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\Stored procedures\Create Stored Procedure sp_AUTOLINE_Make.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\Stored procedures\Create Stored Procedure sp_AUTOLINE_Model.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\Stored procedures\Create Stored Procedure sp_AUTOLINE_Organisation.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\Stored procedures\Create Stored Procedure sp_AUTOLINE_Part.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\Stored procedures\Create Stored Procedure sp_AUTOLINE_PartOrderHeaderLine.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\Stored procedures\Create Stored Procedure sp_AUTOLINE_PartOrderType.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\Stored procedures\Create Stored Procedure sp_AUTOLINE_PartStockDetail.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\Stored procedures\Create Stored Procedure sp_AUTOLINE_PONDW_CRMVehicle.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\Stored procedures\Create Stored Procedure sp_AUTOLINE_PONDW_VehicleQuoteTransaction.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\Stored procedures\Create Stored Procedure sp_AUTOLINE_Rates.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\Stored procedures\Create Stored Procedure sp_AUTOLINE_RepairCategory.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\Stored procedures\Create Stored Procedure sp_AUTOLINE_RepairGroup.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\Stored procedures\Create Stored Procedure sp_AUTOLINE_Skill.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\Stored procedures\Create Stored Procedure sp_AUTOLINE_Stock.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\Stored procedures\Create Stored Procedure sp_AUTOLINE_Supplier.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\Stored procedures\Create Stored Procedure sp_AUTOLINE_Trim.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\Stored procedures\Create Stored Procedure sp_AUTOLINE_Vehicle.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\Stored procedures\Create Stored Procedure sp_AUTOLINE_VehicleQuoteStatus.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\Stored procedures\Create Stored Procedure sp_AUTOLINE_VehicleQuoteTransaction.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\Stored procedures\Create Stored Procedure sp_AUTOLINE_VehicleSalesType.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\Stored procedures\Create Stored Procedure sp_AUTOLINE_VehicleStatus.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\Stored procedures\Create Stored Procedure sp_AUTOLINE_VehicleTransaction_Purchase.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\Stored procedures\Create Stored Procedure sp_AUTOLINE_VehicleTransaction.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\Stored procedures\Create Stored Procedure sp_AUTOLINE_VehicleTransactionType.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\Stored procedures\Create Stored Procedure sp_AUTOLINE_VehicleType.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\Stored procedures\Create Stored Procedure sp_AUTOLINE_Workgroup.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\Stored procedures\Create Stored Procedure sp_AUTOLINE_WorkshopOrderHeaderLine.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\Tables\Create table odsautoline.Color.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\Tables\Create table odsautoline.Costcentre.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\Tables\Create table odsautoline.CRMCustomer.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\Tables\Create table odsautoline.Customer.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\Tables\Create table odsautoline.CustomerCRMAdditionalInformation.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\Tables\Create table odsautoline.Employee.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\Tables\Create table odsautoline.FuelType.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\Tables\Create table odsautoline.Inventory.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\Tables\Create table odsautoline.Labour.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\Tables\Create table odsautoline.Make.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\Tables\Create table odsautoline.Model.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\Tables\Create table odsautoline.Organisation.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\Tables\Create table odsautoline.Part.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\Tables\Create table odsautoline.PartOrderHeaderLine.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\Tables\Create table odsautoline.PartOrderType.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\Tables\Create table odsautoline.PartStockDetail.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\Tables\Create table odsautoline.PONDW_CRMVehicle.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\Tables\Create table odsautoline.PONDW_VehicleQuoteTransaction.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\Tables\Create table odsautoline.Rates.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\Tables\Create table odsautoline.RepairCategory.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\Tables\Create table odsautoline.RepairGroup.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\Tables\Create table odsautoline.Skill.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\Tables\Create table odsautoline.Stock.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\Tables\Create table odsautoline.Supplier.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\Tables\Create table odsautoline.Trim.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\Tables\Create table odsautoline.Vehicle.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\Tables\Create table odsautoline.VehicleQuoteStatus.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\Tables\Create table odsautoline.VehicleQuoteTransaction.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\Tables\Create table odsautoline.VehicleSalesType.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\Tables\Create table odsautoline.VehicleStatus.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\Tables\Create table odsautoline.VehicleTransaction_Purchase.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\Tables\Create table odsautoline.VehicleTransaction.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\Tables\Create table odsautoline.VehicleTransactionType.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\Tables\Create table odsautoline.VehicleType.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\Tables\Create table odsautoline.Workgroup.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_AUTOLINE\Tables\Create table odsautoline.WorkshopOrderHeaderLine.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_CST\ods_views\Create Stored Procedure SP_CST_SALESDOSSIER.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_CST\Relational views\Create view APL_CST.DQ_CST_SALESDOSSIER.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_CST\source views\Create view SRC_CST_SALESDOSSIER.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_DAP\ods tables\Create Table odsdap.DAP_AGREEMENT.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_DAP\ods tables\Create Table odsdap.DAP_AGREEMENTSPECIALIZATION.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_DAP\ods tables\Create Table odsdap.DAP_AGREEMENTVEHICLE.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_DAP\ods tables\Create Table odsdap.DAP_AGREEMENTVEHICLEBONUSTYPEPAYMENTLINE.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_DAP\ods tables\Create Table odsdap.DAP_AGREEMENTVEHICLEINVOICELINE.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_DAP\ods tables\Create Table odsdap.DAP_AGREEMENTVEHICLESPECIALIZATION.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_DAP\ods tables\Create Table odsdap.DAP_CONTRACT.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_DAP\ods tables\Create Table odsdap.DAP_CONTRACTCALCULATIONLINE.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_DAP\ods tables\Create Table odsdap.DAP_CONTRACTDEALER.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_DAP\ods tables\Create Table odsdap.DAP_CONTRACTDEALERBRAND.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_DAP\ods tables\Create Table odsdap.DAP_INVOICE.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_DAP\ods tables\Create Table odsdap.DAP_VEHICLE.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_DAP\ods tables\Create Table odsdap.DAP_VEHICLECONTRACTAGREEMENT.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_DAP\ods tables\Create Table odsdap.DAP_VEHICLEHISTORYFINANCIAL.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_DAP\ods tables\Create Table odsdap.DAP_VEHICLEJOURNALEVENT.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_DAP\ods tables\Create Table odsdap.DAP_VEHICLENCPCORRECTION.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_DAP\ods views\Create Stored Procedure odsdap.sp_DAP_AGREEMENT.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_DAP\ods views\Create Stored Procedure odsdap.sp_DAP_AGREEMENTSPECIALIZATION.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_DAP\ods views\Create Stored Procedure odsdap.sp_DAP_AGREEMENTVEHICLE.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_DAP\ods views\Create Stored Procedure odsdap.sp_DAP_AGREEMENTVEHICLEBONUSTYPEPAYMENTLINE.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_DAP\ods views\Create Stored Procedure odsdap.sp_DAP_AGREEMENTVEHICLEINVOICELINE.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_DAP\ods views\Create Stored Procedure odsdap.sp_DAP_AGREEMENTVEHICLESPECIALIZATION.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_DAP\ods views\Create Stored Procedure odsdap.sp_DAP_CONTRACT.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_DAP\ods views\Create Stored Procedure odsdap.sp_DAP_CONTRACTCALCULATIONLINE.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_DAP\ods views\Create Stored Procedure odsdap.sp_DAP_CONTRACTDEALER.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_DAP\ods views\Create Stored Procedure odsdap.sp_DAP_CONTRACTDEALERBRAND.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_DAP\ods views\Create Stored Procedure odsdap.sp_DAP_INVOICE.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_DAP\ods views\Create Stored Procedure odsdap.sp_DAP_VEHICLE.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_DAP\ods views\Create Stored Procedure odsdap.sp_DAP_VEHICLECONTRACTAGREEMENT.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_DAP\ods views\Create Stored Procedure odsdap.sp_DAP_VEHICLEHISTORYFINANCIAL.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_DAP\ods views\Create Stored Procedure odsdap.sp_DAP_VEHICLEJOURNALEVENT.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_DAP\ods views\Create Stored Procedure odsdap.sp_DAP_VEHICLENCPCORRECTION.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_DAP\source view\Create view srcdap.DAP_AGREEMENT.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_DAP\source view\Create view srcdap.DAP_AGREEMENTSPECIALIZATION.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_DAP\source view\Create view srcdap.DAP_AGREEMENTVEHICLE.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_DAP\source view\Create view srcdap.DAP_AGREEMENTVEHICLEBONUSTYPEPAYMENTLINE.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_DAP\source view\Create view srcdap.DAP_AGREEMENTVEHICLEINVOICELINE.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_DAP\source view\Create view srcdap.DAP_AGREEMENTVEHICLESPECIALIZATION.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_DAP\source view\Create view srcdap.DAP_CONTRACT.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_DAP\source view\Create view srcdap.DAP_CONTRACTCALCULATIONLINE.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_DAP\source view\Create view srcdap.DAP_CONTRACTDEALER.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_DAP\source view\Create view srcdap.DAP_CONTRACTDEALERBRAND.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_DAP\source view\Create view srcdap.DAP_INVOICE.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_DAP\source view\Create view srcdap.DAP_VEHICLE.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_DAP\source view\Create view srcdap.DAP_VEHICLECONTRACTAGREEMENT.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_DAP\source view\Create view srcdap.DAP_VEHICLEHISTORYFINANCIAL.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_DAP\source view\Create view srcdap.DAP_VEHICLEJOURNALEVENT.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_DAP\source view\Create view srcdap.DAP_VEHICLENCPCORRECTION.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_DBO\Create Database Scoped Credentials.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_DBO\Create External DataSources.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_DBO\Created Database Schemas.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_DBO\EXECUTION_STATISTICS\Create view dbo.EXECUTION_STATISTICS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_DEALERBI\source views\CREATE view srcdealerbi.PAH_DBI_APK_WAGENPARK.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_DEALERBI\source views\CREATE view srcdealerbi.PAH_DBI_DOORGANGEN.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_DEALERBI\source views\CREATE view srcdealerbi.PAH_DBI_OMZET_NORA.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_DEALERBI\source views\CREATE view srcdealerbi.PAH_DBI_OMZET_WERKPLAATS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_DEALERBI\source views\CREATE view srcdealerbi.RAW_PAH_DBI_GEFACTUREERDE_UREN.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_FTM\ods views\Create Stored Procedure SP_FTM_NWC.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_FTM\ods views\Create Stored Procedure SP_FTM.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_FTM\ods views\Create table odsftm.FTM.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_FTM\src views\Create view SRC_FTM_NWC.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_FTM\src views\Create view SRC_FTM.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_GA\AW views\Created view srcga.WEB_ADOBE_EMA_VW_SESSIONS_AW.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_GA\ods views\Create Stored Procedure odsga.sp_adobe_AUDI_EMA_SESSIONS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_GA\ods views\Create Stored Procedure odsga.sp_adobe_CUPRA_EMA_SESSIONS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_GA\ods views\Create Stored Procedure odsga.sp_adobe_SEAT_EMA_SESSIONS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_GA\ods views\Create Stored Procedure odsga.sp_adobe_VW_EMA_SESSIONS_GENPL.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_GA\ods views\Create Stored Procedure odsga.sp_adobe_VW_EMA_SESSIONS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_GA\ods views\Create Stored Procedure odsga.sp_adobe_VWBWG_EMA_SESSIONS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_GA\ods views\Created stored procedure odsga.sp_adobe_gen_sessions.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_GA\ods views\Created Stored Procedure sp_adobe_VW_EMA_AW.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_GA\ods views\Created Stored Procedure SP_GA_AA_AUDI_CONFIGURATIONS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_GA\ods views\Created Stored Procedure SP_GA_SESSIONS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_GA\source views\Created view srcga.WEB_ADOBE_EMA_AUDI.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_GA\source views\Created view srcga.WEB_ADOBE_EMA_CUPRA.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_GA\source views\Created view srcga.WEB_ADOBE_EMA_SEAT.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_GA\source views\Created view srcga.WEB_ADOBE_EMA_VW_SESSIONS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_GA\source views\Created view srcga.WEB_ADOBE_EMA_VW.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_GA\source views\Created view srcga.WEB_ADOBE_EMA_VWBWG.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_GETFEEDBACK\Source views\Create view srcgf.GF_BUTTONFEEDBACK.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_GETFEEDBACK\Source views\Create view srcgf.GF_BUTTONS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_GETFEEDBACK\Source views\Create view srcgf.GF_CAMPAIGNRESULTS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_GETFEEDBACK\Source views\Create view srcgf.GF_CAMPAIGNS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_GETFEEDBACK\Source views\Create view srcgf.GF_CAMPAIGNSTATS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_GETFEEDBACK\Source views\Create view srcgf.GF_INPAGEFEEDBACK.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_GETFEEDBACK\Source views\Create view srcgf.GF_WIDGETS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_GETFEEDBACK\Stored Procedures\Create stored procedure odsgf.sp_GF_BUTTONFEEDBACK.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_GETFEEDBACK\Stored Procedures\Create stored procedure odsgf.sp_GF_BUTTONS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_GETFEEDBACK\Stored Procedures\Create stored procedure odsgf.sp_GF_CAMPAIGNRESULTS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_GETFEEDBACK\Stored Procedures\Create stored procedure odsgf.sp_GF_CAMPAIGNS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_GETFEEDBACK\Stored Procedures\Create stored procedure odsgf.sp_GF_CAMPAIGNSTATS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_GETFEEDBACK\Stored Procedures\Create stored procedure odsgf.sp_GF_INPAGEFEEDBACK.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_GETFEEDBACK\Stored Procedures\Create stored procedure odsgf.sp_GF_WIDGETS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_GETFEEDBACK\Tables\Create table odsgf.GF_BUTTONFEEDBACK.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_GETFEEDBACK\Tables\Create table odsgf.GF_BUTTONS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_GETFEEDBACK\Tables\Create table odsgf.GF_CAMPAIGNRESULTS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_GETFEEDBACK\Tables\Create table odsgf.GF_CAMPAIGNS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_GETFEEDBACK\Tables\Create table odsgf.GF_CAMPAIGNSTATS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_GETFEEDBACK\Tables\Create table odsgf.GF_INPAGEFEEDBACK.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_GETFEEDBACK\Tables\Create table odsgf.GF_WIDGETS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_IPSOS\ods views\Create Stored procdure odsips.sp_IPSOS_KTV_ANSWERS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_IPSOS\ods views\Create Stored procdure odsips.sp_IPSOS_KTV.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_IPSOS\ods views\Create table odsips.IPSOS_KTV_ANSWERS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_IPSOS\ods views\Create table odsips.IPSOS_KTV.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_IPSOS\src views\Create View srcips.IPSOS_KTV_ANSWERS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_IPSOS\src views\Create View srcips.IPSOS_KTV.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_JIRA\ods views\CREATE odsjra.sp_JIRA_BOARDS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_JIRA\ods views\CREATE odsjra.sp_JIRA_FIELDS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_JIRA\ods views\CREATE odsjra.sp_JIRA_ISSUES_HISTORY.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_JIRA\ods views\CREATE odsjra.sp_JIRA_ISSUES.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_JIRA\ods views\CREATE odsjra.sp_JIRA_ISSUETYPE.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_JIRA\ods views\CREATE odsjra.sp_JIRA_PRIORITY.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_JIRA\ods views\CREATE odsjra.sp_JIRA_PROJECTS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_JIRA\ods views\CREATE odsjra.sp_JIRA_SPRINTS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_JIRA\ods views\CREATE odsjra.sp_JIRA_STATUS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_JIRA\ods views\CREATE odsjra.sp_JIRA_USERS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_JIRA\source views\CREATE view srcjra.JIRA_BOARDS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_JIRA\source views\CREATE view srcjra.JIRA_FIELDS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_JIRA\source views\CREATE view srcjra.JIRA_ISSUES_HISTORY.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_JIRA\source views\CREATE view srcjra.JIRA_ISSUES.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_JIRA\source views\CREATE view srcjra.JIRA_ISSUETYPE.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_JIRA\source views\CREATE view srcjra.JIRA_PRIORITY.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_JIRA\source views\CREATE view srcjra.JIRA_PROJECTS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_JIRA\source views\CREATE view srcjra.JIRA_SPRINTS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_JIRA\source views\CREATE view srcjra.JIRA_STATUS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_JIRA\source views\CREATE view srcjra.JIRA_USERS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_MARKETINGCLOUD\Create storedproc odsmc.sp_MARKETINGCLOUD.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_MARKETINGCLOUD\Create table odsmc.MARKETINGCLOUD.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_MARKETINGCLOUD\Create view srcmc.MARKETINGCLOUD.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_MASTERDATAMANAGEMENT\ods tables\Create table odsmdm.KBR_DataManagement.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_MASTERDATAMANAGEMENT\ods views\Create Stored Procedure SP_MDM_KBR_DataManagement.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_MASTERDATAMANAGEMENT\source views\Create view SRC_MDM_KBR_DataManagement.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_MDS\ods views\Create Stored Procedure SP_MDS_BRAND.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_MDS\ods views\Create Stored Procedure SP_MDS_EXTENSION.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_MDS\ods views\Create Stored Procedure SP_MDS_MODEL.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_MDS\ods views\Create Stored Procedure SP_MDS_MODELGENERATION.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_MDS\ods views\Create Stored Procedure SP_MDS_MODELGROUP.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_MDS\ods views\Create Stored Procedure SP_MDS_MODELTYPE.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_MDS\ods views\Create Stored Procedure SP_MDS_OEMTYPE.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_MDS\ods views\Create Stored Procedure SP_MDS_OPTIONCATEGORY.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_MDS\ods views\Create Stored Procedure SP_MDS_OPTIONS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_MDS\ods views\Create Stored Procedure SP_MDS_PONCATALOGCAR.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_MDS\ods views\Create Stored Procedure SP_MDS_TECHNICALDATA.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_MDS\ods views\Create Stored Procedure SP_MDS_TRIMLINE.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_MDS\ods views\Create Stored Procedure SP_MDS_WLTP.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_MDS\source views\Create view SRC_MDS_BRAND.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_MDS\source views\Create view SRC_MDS_EXTENSION.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_MDS\source views\Create view SRC_MDS_MODEL.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_MDS\source views\Create view SRC_MDS_MODELGENERATION.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_MDS\source views\Create view SRC_MDS_MODELGROUP.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_MDS\source views\Create view SRC_MDS_MODELTYPE.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_MDS\source views\Create view SRC_MDS_OEMTYPE.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_MDS\source views\Create view SRC_MDS_OPTIONCATEGORY.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_MDS\source views\Create view SRC_MDS_OPTIONS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_MDS\source views\Create view SRC_MDS_PONCATALOGCAR.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_MDS\source views\Create view SRC_MDS_TECHNICALDATA.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_MDS\source views\Create view SRC_MDS_TRIMLINE.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_MDS\source views\Create view SRC_MDS_WLTP.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_MIP\RAW source views\Create view RAW_SRC_MIP_ACCOUNTMANAGERS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_MIP\RAW source views\Create view RAW_SRC_MIP_CUSTOMERS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_MIP\RAW source views\Create view RAW_SRC_MIP_ORDERS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_MIP\RAW source views\Create view RAW_SRC_MIP_ORDERVERSIONS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_MIP\RAW source views\Create view RAW_SRC_MIP_PRICEDATADEALERS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_MIP\RAW source views\Create view RAW_SRC_MIP_PRICEDATAIMPORTERS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_MIP\RAW source views\Create view RAW_SRC_MIP_TRUCKCONFIGURATIONS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_MIP\RAW source views\Create view RAW_SRC_MIP_VCODES.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_MIP\RAW source views\Create view RAW_SRC_MIP_VEHICLES.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_NADIN\ods tables\Create Table odsndn.NADIN_VEHICLE_PARTNER_HISTORY.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_NADIN\ods tables\Create Table odsndn.NADIN_VEHICLE.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_NADIN\ods views\Create Stored Procedure SP_NDN_VEHICLE_ERROR.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_NADIN\ods views\Create Stored Procedure SP_NDN_VEHICLE_EVENT_CHECKPOINT.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_NADIN\ods views\Create Stored Procedure SP_NDN_VEHICLE_EVENT_DEALER.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_NADIN\ods views\Create Stored Procedure SP_NDN_VEHICLE_EVENT_HISTORY.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_NADIN\ods views\Create Stored Procedure SP_NDN_VEHICLE_EVENT_LOGISTIC.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_NADIN\ods views\Create Stored Procedure SP_NDN_VEHICLE_EVENT_VEHICLE.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_NADIN\ods views\Create Stored Procedure SP_NDN_VEHICLE_HISTORY.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_NADIN\ods views\Create Stored Procedure SP_NDN_VEHICLE_INVOICE_PURCHASE.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_NADIN\ods views\Create Stored Procedure SP_NDN_VEHICLE_INVOICE_SALES.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_NADIN\ods views\Create Stored Procedure SP_NDN_VEHICLE_OPTION.SQL
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_NADIN\ods views\Create Stored Procedure SP_NDN_VEHICLE_PARTNER_HISTORY.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_NADIN\ods views\Create Stored Procedure SP_NDN_VEHICLE_SHIPPINGDATA.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_NADIN\ods views\Create Stored Procedure SP_NDN_VEHICLE.SQL
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_NADIN\source views\Create Stored Procedure SP_NADIN_SPLITDATA.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_NADIN\source views\Create Stored Procedure SP_NADIN_TO_NADIN_FULL.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_NADIN\source views\Create Stored Procedure sp_NADIN_TO_NADIN_KCODE.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_NADIN\source views\Create view SRC_NADIN_VEHICLE_ERROR.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_NADIN\source views\Create view SRC_NADIN_VEHICLE_EVENT_CHECKPOINT.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_NADIN\source views\Create view SRC_NADIN_VEHICLE_EVENT_DEALER.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_NADIN\source views\Create view SRC_NADIN_VEHICLE_EVENT_HISTORY.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_NADIN\source views\Create view SRC_NADIN_VEHICLE_EVENT_LOGISTIC.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_NADIN\source views\Create view SRC_NADIN_VEHICLE_EVENT_VEHICLE.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_NADIN\source views\Create view SRC_NADIN_VEHICLE_HISTORY.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_NADIN\source views\Create view SRC_NADIN_VEHICLE_INVOICE_PURCHASE.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_NADIN\source views\Create view SRC_NADIN_VEHICLE_INVOICE_SALES.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_NADIN\source views\Create view SRC_NADIN_VEHICLE_OPTION.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_NADIN\source views\Create view SRC_NADIN_VEHICLE_PARTNER_HISTORY.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_NADIN\source views\Create view SRC_NADIN_VEHICLE_SHIPPINGDATA.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_NADIN\source views\Create view SRC_NADIN_VEHICLE.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_PFMS\ods tables\Create table PFMS_CONTRACT.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_PFMS\ods tables\Create table PFMS_DEBTORS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_PFMS\ods tables\Create table PFMS_MAINASSETS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_PFMS\ods tables\Create table PFMS_MAINTENANCEHISTORIES.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_PFMS\ods tables\Create table PFMS_MONTHLYRATES.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_PFMS\ods tables\Create table PFMS_ORGANIZATIONS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_PFMS\ods views\Create stored procedure sp_PFMS_CONTRACTS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_PFMS\ods views\Create stored procedure sp_PFMS_DEBTORS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_PFMS\ods views\Create stored procedure sp_PFMS_MAINASSETS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_PFMS\ods views\Create stored procedure sp_PFMS_MAINTENANCEHISTORY.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_PFMS\ods views\Create stored procedure sp_PFMS_MONTHLYRATES.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_PFMS\ods views\Create stored procedure sp_PFMS_ORGANIZATIONS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_PFMS\Source views\Create view PFMS_CONTRACTS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_PFMS\Source views\Create view PFMS_DEBTORS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_PFMS\Source views\Create view PFMS_MAINASSETS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_PFMS\Source views\Create view PFMS_MAINTENANCEHISTORIES.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_PFMS\Source views\Create view PFMS_MONTHLYRATES.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_PFMS\Source views\Create view PFMS_ORGANIZATIONS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_PPO\aplviews\Create view aplppo.Doelen.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_PPO\aplviews\Create view aplppo.HFM_DATA_BULK.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_PPO\aplviews\Create view aplppo.IPSOS_KTV.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_PPO\aplviews\Create view aplppo.nora.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_PPO\aplviews\Create view aplppo.Opkomstindex.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_PPO\odsviews\Create Stored procdure odsppo.sp_IPSOS_KTV.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_PPO\odsviews\Create Stored procedure odsppo.sp_Doelen.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_PPO\odsviews\Create stored procedure odsppo.sp_DoelenPMP1.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_PPO\odsviews\Create Stored procedure odsppo.sp_HFM_DATA_BULK.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_PPO\odsviews\Create stored procedure odsppo.sp_nora.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_PPO\odsviews\Create Stored Procedure SP_OPKOMSTINDEX.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_PPO\odsviews\Create Table odsdb2.OPKOMSTINDEX.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_PPO\odsviews\Create table odsppo.Doelen.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_PPO\odsviews\Create table odsppo.doelenPMP1.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_PPO\odsviews\Create table odsppo.HFM_DATA_BULK.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_PPO\odsviews\Create table odsppo.IPSOS_KTV.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_PPO\odsviews\Create table odsppo.nora.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_PPO\srcviews\Create View SRC_OPKOMSTINDEX.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_PPO\srcviews\Create view srcppo.doelen.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_PPO\srcviews\Create view srcppo.doelenPMP1.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_PPO\srcviews\Create view srcppo.HFM_DATA_BULK.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_PPO\srcviews\Create View srcppo.IPSOS_KTV.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_PPO\srcviews\Create view srcppo.nora.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_REFERENCE\POPULATE EDW_DEALER_SCORECARD_WEIGHTING.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_REFERENCE\POPULATE EDW_DFM_STOCKFINANCING_CUSTOMERS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_REFERENCE\POPULATE EDW_EVENTTYPE.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_REFERENCE\POPULATE EDW_OA_ENRICHMENT.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_REFERENCE\POPULATE VEHICLE_ADDEDOBJECT_RDW.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_REFERENCE\POPULATE VEHICLE_BODYWORKTYPE.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_REFERENCE\POPULATE VEHICLE_BRANCH_RDW.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_REFERENCE\POPULATE VEHICLE_BRAND_PA.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_REFERENCE\POPULATE VEHICLE_BRAND_RDW.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_REFERENCE\POPULATE VEHICLE_BUSINESSGROUP.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_REFERENCE\POPULATE VEHICLE_CATEGORYCODE_RDW.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_REFERENCE\POPULATE VEHICLE_COLOR_RDW.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_REFERENCE\POPULATE VEHICLE_CONSTRUCTION_YEAR_SEGMENT.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_REFERENCE\POPULATE VEHICLE_CUSTOMER_GROUP.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_REFERENCE\POPULATE VEHICLE_CUSTOMER_ORDER.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_REFERENCE\POPULATE VEHICLE_CUSTOMER_SEGMENT.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_REFERENCE\POPULATE VEHICLE_DEVICECODE_RDW.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_REFERENCE\POPULATE VEHICLE_EVENTSTATUS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_REFERENCE\POPULATE VEHICLE_EVENTTYPE.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_REFERENCE\POPULATE VEHICLE_EXTENDED_ATTRIBUTES.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_REFERENCE\POPULATE VEHICLE_FACTORY_PA.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_REFERENCE\POPULATE VEHICLE_FUELTYPE.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_REFERENCE\POPULATE VEHICLE_MODELOEMCODE.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_REFERENCE\POPULATE VEHICLE_MODELTYPE.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_REFERENCE\POPULATE VEHICLE_MODELWRITTENLANGUAGE.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_REFERENCE\POPULATE VEHICLE_PORSCHE.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_REFERENCE\POPULATE VEHICLE_REFERENCETYPE_RDW.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_REFERENCE\POPULATE VEHICLE_SEGMENT_RDW_MAN.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_REFERENCE\POPULATE VEHICLE_SEGMENT_RDW.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_REFERENCE\POPULATE VEHICLE_STATUS_IDS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_REFERENCE\POPULATE VEHICLE_STATUS_LOGACTION.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_REFERENCE\POPULATE VEHICLE_STATUS_RDW.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_REFERENCE\POPULATE VEHICLE_VINYEAR.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_REFERENCE\POPULATE VEHICLE_WEB_MODEL.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_REFERENCE\POPULATE VIP_EXPORT_PARTNER.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SALESFORCE\Business views\odssf.BV_SF_ASSET.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SALESFORCE\Business views\odssf.BV_SF_LEADS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SALESFORCE\ods views\Create stored procedure sp_SF_ACCOUNT.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SALESFORCE\ods views\Create stored procedure sp_SF_ASSET_CONFIGURATION_RELATION.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SALESFORCE\ods views\Create stored procedure sp_SF_ASSET.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SALESFORCE\ods views\Create stored procedure sp_SF_ASSIGNEDRESOURCE.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SALESFORCE\ods views\Create stored procedure sp_SF_CAMPAIGN.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SALESFORCE\ods views\Create stored procedure sp_SF_CAMPAIGNMEMBER.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SALESFORCE\ods views\Create stored procedure sp_SF_CASE.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SALESFORCE\ods views\Create stored procedure sp_SF_CASEFEED.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SALESFORCE\ods views\Create stored procedure sp_SF_COMMUNICATION_PERMISSION.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SALESFORCE\ods views\Create stored procedure sp_SF_CONTACT.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SALESFORCE\ods views\Create stored procedure sp_SF_CROSS_REFERENCE.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SALESFORCE\ods views\Create stored procedure sp_SF_CUSTOMER_PROFILE.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SALESFORCE\ods views\Create stored procedure sp_SF_DEALER.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SALESFORCE\ods views\Create stored procedure sp_SF_FULFILLMENTORDER.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SALESFORCE\ods views\Create stored procedure sp_SF_FULFILLMENTORDERLINEITEM.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SALESFORCE\ods views\Create stored procedure sp_SF_KNOWLEDGE_KAV.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SALESFORCE\ods views\Create stored procedure sp_SF_LEAD.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SALESFORCE\ods views\Create stored procedure sp_SF_OPPORTUNITY.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SALESFORCE\ods views\Create stored procedure sp_SF_OPPORTUNITYLINEITEM.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SALESFORCE\ods views\Create stored procedure sp_SF_ORDER.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SALESFORCE\ods views\Create stored procedure sp_SF_ORDERHISTORY.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SALESFORCE\ods views\Create stored procedure sp_SF_ORDERITEM.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SALESFORCE\ods views\Create stored procedure sp_SF_ORDERSUMMARY.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SALESFORCE\ods views\Create stored procedure sp_SF_P_ACTIVITY_LICENSE_POSTAL_CODE.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SALESFORCE\ods views\Create stored procedure sp_SF_P_ACTIVITY_LICENSE.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SALESFORCE\ods views\Create stored procedure sp_SF_P_ACTIVITY.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SALESFORCE\ods views\Create stored procedure sp_SF_P_ADDRESS_RELATION.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SALESFORCE\ods views\Create stored procedure sp_SF_P_ADDRESS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SALESFORCE\ods views\Create stored procedure sp_SF_P_CHAMBER_OF_COMMERCE.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SALESFORCE\ods views\Create stored procedure sp_SF_P_COC_GROUP.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SALESFORCE\ods views\Create stored procedure sp_SF_P_COC_REPRESENTED_BY.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SALESFORCE\ods views\Create stored procedure sp_SF_P_LICENSE_TYPE.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SALESFORCE\ods views\Create stored procedure sp_SF_P_LOCATION.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SALESFORCE\ods views\Create stored procedure sp_SF_P_ORGANISATION.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SALESFORCE\ods views\Create stored procedure sp_SF_P_PARTNER_EMPLOYEE.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SALESFORCE\ods views\Create stored procedure sp_SF_P_PON_EMPLOYEE.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SALESFORCE\ods views\Create stored procedure sp_SF_P_POSTAL_CODE.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SALESFORCE\ods views\Create stored procedure sp_SF_PARTNER_NOTIFICATION.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SALESFORCE\ods views\Create stored procedure sp_SF_PARTNER.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SALESFORCE\ods views\Create stored procedure sp_SF_PRODUCT.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SALESFORCE\ods views\Create stored procedure sp_SF_QUOTE.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SALESFORCE\ods views\Create stored procedure sp_SF_QUOTELINEITEM.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SALESFORCE\ods views\Create stored procedure sp_SF_RECORDTYPE.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SALESFORCE\ods views\Create stored procedure sp_SF_SERVICEAPPOINTMENT.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SALESFORCE\ods views\Create stored procedure sp_SF_SERVICERESOURCE.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SALESFORCE\ods views\Create stored procedure sp_SF_SERVICETERRITORY.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SALESFORCE\ods views\Create stored procedure sp_SF_SURVEY_REPONSE.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SALESFORCE\ods views\Create stored procedure sp_SF_TASK.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SALESFORCE\ods views\Create stored procedure sp_SF_USER.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SALESFORCE\ods views\Create stored procedure sp_SF_WORKTYPE.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SALESFORCE\Relational view\aplsf.DQ_ASSET.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SALESFORCE\Relational view\aplsf.DQ_VEHICLE.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SAP\ods views\CREATE odssap.sp_SAP_BILLING_DOCUMENT.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SAP\ods views\CREATE odssap.sp_SAP_BUSINESSPARTNER.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SAP\ods views\CREATE odssap.sp_SAP_PRODUCT_HIERARCHY_NODES.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SAP\ods views\CREATE odssap.sp_SAP_PRODUCT_HIERARCHY.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SAP\ods views\CREATE odssap.sp_SAP_PRODUCT_PLANT_VALUATION.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SAP\ods views\CREATE odssap.sp_SAP_PRODUCT_SALES_DELIVERY.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SAP\ods views\CREATE odssap.sp_SAP_PRODUCT_SUPPLYPLANNING.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SAP\ods views\CREATE odssap.sp_SAP_PRODUCT.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SAP\ods views\CREATE odssap.sp_SAP_PURCHASE_INFORECORD.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SAP\ods views\CREATE odssap.sp_SAP_SALES_ORDERHEADER.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SAP\ods views\CREATE odssap.sp_SAP_SALES_ORDERLINE_PRICE.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SAP\ods views\CREATE odssap.sp_SAP_SALES_ORDERLINE.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SAP\ods views\CREATE odssap.sp_SAP_STOCK_PRICING.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SAP\ods views\CREATE odssap.sp_SAP_STOCK.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SAP\ods views\CREATE odssap.sp_SAP_TRANSACTIONS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SAP\source views\CREATE view srcsap.SAP_BILLING_DOCUMENT.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SAP\source views\CREATE view srcsap.SAP_BUSINESS_PARTNERS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SAP\source views\CREATE view srcsap.SAP_PRODUCT_HIERARCHY_NODES.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SAP\source views\CREATE view srcsap.SAP_PRODUCT_HIERARCHY.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SAP\source views\CREATE view srcsap.SAP_PRODUCT_PLANT_VALUATION.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SAP\source views\CREATE view srcsap.SAP_PRODUCT_SALES_DELIVERY.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SAP\source views\CREATE view srcsap.SAP_PRODUCT_SUPPLYPLANNING.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SAP\source views\CREATE view srcsap.SAP_PRODUCT.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SAP\source views\CREATE view srcsap.SAP_PURCHASE_INFORECORD.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SAP\source views\CREATE view srcsap.SAP_SALES_ORDERHEADER.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SAP\source views\CREATE view srcsap.SAP_SALES_ORDERLINE_PRICE.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SAP\source views\CREATE view srcsap.SAP_SALES_ORDERLINE.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SAP\source views\CREATE view srcsap.SAP_STOCK_PRICING.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SAP\source views\CREATE view srcsap.SAP_STOCK.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_SAP\source views\CREATE view srcsap.SAP_TRANSACTIONS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_VIP\ESB trigger\Create trigger TRIGGER_VEHICLE_EVENT_DEALER.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_VIP\ods tables\Create table odsvip.MODEL_LIB.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_VIP\ods views\Create Stored Procedure odsvip.sp_MODEL_LIB.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_VIP\ods views\Create Stored Procedure odsvip.sp_VIP_DEALEREVENTS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_VIP\ods views\Create Stored Procedure SP_VIP_VEHICLE_EVENT_DEALER.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_VIP\source views\Create view srcvip.VIP_DEALEREVENTS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_VIP\source views\Create view srcvip.VIP_MODEL_LIB.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_VRS\ods views\CREATE odsvrs.sp_VRS_ASR_ASS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_VRS\ods views\CREATE odsvrs.sp_VRS_VEHICLE_EVENT.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_VRS\source views\CREATE view srcvrs.VRS_ASR_ASS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_VRS\source views\Create View srcvrs.VRS_VEHICLE_EVENT.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_WARRANTY\ods views\CREATE odswar.sp_WARRANTY_PAH_AQUA_DATA.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_WARRANTY\ods views\CREATE odswar.sp_WARRANTY_PAH_CALCULATED_TOTAL_VALUES.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_WARRANTY\ods views\CREATE odswar.sp_WARRANTY_PAH_CLAIM_CONTROL_DATA.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_WARRANTY\ods views\CREATE odswar.sp_WARRANTY_PAH_CLAIM_STATUS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_WARRANTY\ods views\CREATE odswar.sp_WARRANTY_PAH_CLAIM.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_WARRANTY\ods views\CREATE odswar.sp_WARRANTY_PAH_CREDITNOTE_DLR.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_WARRANTY\ods views\CREATE odswar.sp_WARRANTY_PAH_CREDITNOTE.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_WARRANTY\ods views\CREATE odswar.sp_WARRANTY_PAH_DAMAGE_DATA.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_WARRANTY\ods views\CREATE odswar.sp_WARRANTY_PAH_EVALUATION.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_WARRANTY\ods views\CREATE odswar.sp_WARRANTY_PAH_FEEDBACKITEMS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_WARRANTY\ods views\CREATE odswar.sp_WARRANTY_PAH_LABOUR_OPERATION.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_WARRANTY\ods views\CREATE odswar.sp_WARRANTY_PAH_OBJECT_DATA.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_WARRANTY\ods views\CREATE odswar.sp_WARRANTY_PAH_OUTSIDE_LABOUR_OPERATION.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_WARRANTY\ods views\CREATE odswar.sp_WARRANTY_PAH_OUTSIDE_SPARE_PART.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_WARRANTY\ods views\CREATE odswar.sp_WARRANTY_PAH_SPARE_PART.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_WARRANTY\src views\CREATE view srcwar.WARRANTY_PAH_AQUA_DATA.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_WARRANTY\src views\CREATE view srcwar.WARRANTY_PAH_CALCULATED_TOTAL_VALUES.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_WARRANTY\src views\CREATE view srcwar.WARRANTY_PAH_CLAIM_CONTROL_DATA.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_WARRANTY\src views\CREATE view srcwar.WARRANTY_PAH_CLAIM_STATUS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_WARRANTY\src views\CREATE view srcwar.WARRANTY_PAH_CLAIM.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_WARRANTY\src views\CREATE view srcwar.WARRANTY_PAH_CREDITNOTE_DLR.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_WARRANTY\src views\CREATE view srcwar.WARRANTY_PAH_CREDITNOTE.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_WARRANTY\src views\CREATE view srcwar.WARRANTY_PAH_DAMAGE_DATA.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_WARRANTY\src views\CREATE view srcwar.WARRANTY_PAH_EVALUATION.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_WARRANTY\src views\CREATE view srcwar.WARRANTY_PAH_FEEDBACKITEMS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_WARRANTY\src views\CREATE view srcwar.WARRANTY_PAH_LABOUR_OPERATION.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_WARRANTY\src views\CREATE view srcwar.WARRANTY_PAH_OBJECT_DATA.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_WARRANTY\src views\CREATE view srcwar.WARRANTY_PAH_OUTSIDE_LABOUR_OPERATION.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_WARRANTY\src views\CREATE view srcwar.WARRANTY_PAH_OUTSIDE_SPARE_PART.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_WARRANTY\src views\CREATE view srcwar.WARRANTY_PAH_SPARE_PART.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_WINCAR\Source views\Create view srcwincar.WINCAR_BLI_PARTS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_WINCAR\Source views\Create view srcwincar.WINCAR_BLI.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_WINCAR\Source views\Create view srcwincar.WINCAR_WPL_LABOUR.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_WINCAR\Source views\Create view srcwincar.WINCAR_WPL_PARTS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_WINCAR\Source views\Create view srcwincar.WINCAR_WPL.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_WINCAR\Stored procedures\Create Stored Procedure sp_WINCAR_BLI_PARTS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_WINCAR\Stored procedures\Create Stored Procedure sp_WINCAR_BLI.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_WINCAR\Stored procedures\Create Stored Procedure sp_WINCAR_WPL_LABOUR.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_WINCAR\Stored procedures\Create Stored Procedure sp_WINCAR_WPL_PARTS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_WINCAR\Stored procedures\Create Stored Procedure sp_WINCAR_WPL.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_WINCAR\Tables\Create table odswincar.WINCAR_BLI_PARTS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_WINCAR\Tables\Create table odswincar.WINCAR_BLI.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_WINCAR\Tables\Create table odswincar.WINCAR_WPL_LABOUR.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_WINCAR\Tables\Create table odswincar.WINCAR_WPL_PARTS.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\ODS_WINCAR\Tables\Create table odswincar.WINCAR_WPL.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\SOURCE_METADATA\CREATE dbo.sp_GENERIC_CREATE_DATASOURCE.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\SOURCE_METADATA\CREATE dbo.sp_GENERIC_CREATE_ODS_STOREDPROC.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\SOURCE_METADATA\CREATE dbo.sp_GENERIC_CREATE_ODS_TABLE.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\SOURCE_METADATA\CREATE dbo.sp_GENERIC_CREATE_SOURCE_TABLE.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\SOURCE_METADATA\CREATE dbo.sp_GENERIC_DROP_RAW_TABLE.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\SOURCE_METADATA\CREATE dbo.sp_GENERIC_ERRORHANDLE.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\SOURCE_METADATA\CREATE dbo.sp_GENERIC_GET_PUSH_WORK_METADATA.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\SOURCE_METADATA\CREATE dbo.sp_GENERIC_GETDATA.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\SOURCE_METADATA\CREATE dbo.sp_GENERIC_GETWORK_METADATA.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\SOURCE_METADATA\CREATE dbo.sp_GENERIC_RESETERROR.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\SOURCE_METADATA\CREATE dbo.sp_GENERIC_VALIDATE_RAW_ODS_TABLE.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\SOURCE_METADATA\CREATE TABLE dbo.DESTINATION_METADATA.sql
+C:\Users\mike.glaser\Documents\GitHub\BI_SQL_ODS\SOURCE_METADATA\POPULATE dbo.SOURCE_METADATA.sql
