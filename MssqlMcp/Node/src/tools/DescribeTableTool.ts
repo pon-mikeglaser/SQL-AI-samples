@@ -10,6 +10,10 @@ export class DescribeTableTool implements Tool {
     type: "object",
     properties: {
       tableName: { type: "string", description: "Name of the table to describe" },
+      profile: {
+        type: "string",
+        description: "The SQL profile to use (e.g., 'ods_prod', 'ovis_prod'). Defaults to 'ovis_prod'."
+      }
     },
     required: ["tableName"],
   } as any;

@@ -1,0 +1,190 @@
+Connecting to ODS...
+Connected! Fetching schemas...
+Schemas: [
+  {
+    "name": "dbo"
+  },
+  {
+    "name": "aplcst"
+  },
+  {
+    "name": "apljra"
+  },
+  {
+    "name": "aplmds"
+  },
+  {
+    "name": "aplndn"
+  },
+  {
+    "name": "odscst"
+  },
+  {
+    "name": "odsjra"
+  },
+  {
+    "name": "odsmds"
+  },
+  {
+    "name": "odsndn"
+  },
+  {
+    "name": "srccst"
+  },
+  {
+    "name": "srcjra"
+  },
+  {
+    "name": "srcmds"
+  },
+  {
+    "name": "srcndn"
+  },
+  {
+    "name": "srcsf"
+  },
+  {
+    "name": "odssf"
+  },
+  {
+    "name": "aplsf"
+  },
+  {
+    "name": "aplga"
+  },
+  {
+    "name": "odsga"
+  },
+  {
+    "name": "srcga"
+  },
+  {
+    "name": "aplrtm"
+  },
+  {
+    "name": "srcvrs"
+  },
+  {
+    "name": "odsvrs"
+  },
+  {
+    "name": "aplvrs"
+  },
+  {
+    "name": "srcpfm"
+  },
+  {
+    "name": "odspfm"
+  },
+  {
+    "name": "aplpfm"
+  },
+  {
+    "name": "aplref"
+  },
+  {
+    "name": "odsref"
+  },
+  {
+    "name": "srcvip"
+  },
+  {
+    "name": "odsvip"
+  },
+  {
+    "name": "aplvip"
+  },
+  {
+    "name": "ESB"
+  },
+  {
+    "name": "odssap"
+  },
+  {
+    "name": "srcsap"
+  },
+  {
+    "name": "aplsap"
+  },
+  {
+    "name": "odsftm"
+  },
+  {
+    "name": "srcftm"
+  },
+  {
+    "name": "aplftm"
+  },
+  {
+    "name": "aplmdm"
+  },
+  {
+    "name": "odsmdm"
+  },
+  {
+    "name": "srcmdm"
+  },
+  {
+    "name": "apldap"
+  },
+  {
+    "name": "odsdap"
+  },
+  {
+    "name": "srcdap"
+  },
+  {
+    "name": "srcmc"
+  },
+  {
+    "name": "odsmc"
+  },
+  {
+    "name": "srcautoline"
+  },
+  {
+    "name": "srcips"
+  },
+  {
+    "name": "odsips"
+  },
+  {
+    "name": "aplips"
+  },
+  {
+    "name": "aplmc"
+  },
+  {
+    "name": "aplgf"
+  },
+  {
+    "name": "srcgf"
+  },
+  {
+    "name": "odsgf"
+  },
+  {
+    "name": "odsautoline"
+  },
+  {
+    "name": "aplautoline"
+  },
+  {
+    "name": "odswincar"
+  },
+  {
+    "name": "srcwincar"
+  },
+  {
+    "name": "aplwincar"
+  },
+  {
+    "name": "srcppo"
+  },
+  {
+    "name": "odsppo"
+  },
+  {
+    "name": "aplppo"
+  }
+]

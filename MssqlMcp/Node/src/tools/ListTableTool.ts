@@ -8,14 +8,18 @@ export class ListTableTool implements Tool {
   inputSchema = {
     type: "object",
     properties: {
-      parameters: { 
-        type: "array", 
+      parameters: {
+        type: "array",
         description: "Schemas to filter by (optional)",
         items: {
           type: "string"
         },
         minItems: 0
       },
+      profile: {
+        type: "string",
+        description: "The SQL profile to use (e.g., 'ods_prod', 'ovis_prod'). Defaults to 'ovis_prod'."
+      }
     },
     required: [],
   } as any;

@@ -1,0 +1,5 @@
+$env:SERVER_NAME = "spmsql402.database.windows.net"
+$env:DATABASE_NAME = "ODS"
+$env:READONLY = "true"
+$env:TRUST_SERVER_CERTIFICATE = "true"
+node "c:/Users/mike.glaser/Documents/GitHub/SQL-AI-samples/MssqlMcp/Node/dist/index.js"
