@@ -1,0 +1,1586 @@
+[
+  {
+    "ViewSchema": "aplcst",
+    "ViewName": "CST_SALESDOSSIER",
+    "RefSchema": "odscst",
+    "RefTable": "CST_SALESDOSSIER"
+  },
+  {
+    "ViewSchema": "aplcst",
+    "ViewName": "DQ_CST_SALESDOSSIER",
+    "RefSchema": "odscst",
+    "RefTable": "CST_SALESDOSSIER"
+  },
+  {
+    "ViewSchema": "apldap",
+    "ViewName": "DAP_AGREEMENT",
+    "RefSchema": "odsdap",
+    "RefTable": "DAP_AGREEMENT"
+  },
+  {
+    "ViewSchema": "apldap",
+    "ViewName": "DAP_AGREEMENT_AGREEMENT_STATUS",
+    "RefSchema": "odsdap",
+    "RefTable": "DAP_AGREEMENT"
+  },
+  {
+    "ViewSchema": "apldap",
+    "ViewName": "DAP_AGREEMENT_STATUS",
+    "RefSchema": "odsdap",
+    "RefTable": "DAP_AGREEMENT"
+  },
+  {
+    "ViewSchema": "apldap",
+    "ViewName": "DAP_AGREEMENT_VEHICLE",
+    "RefSchema": "odsdap",
+    "RefTable": "DAP_AGREEMENT"
+  },
+  {
+    "ViewSchema": "apldap",
+    "ViewName": "DAP_AGREEMENT_VEHICLE",
+    "RefSchema": "odsdap",
+    "RefTable": "DAP_AGREEMENTVEHICLE"
+  },
+  {
+    "ViewSchema": "apldap",
+    "ViewName": "DAP_AGREEMENT_VEHICLE",
+    "RefSchema": "odsdap",
+    "RefTable": "DAP_VEHICLE"
+  },
+  {
+    "ViewSchema": "apldap",
+    "ViewName": "DAP_CONTRACT",
+    "RefSchema": "odsdap",
+    "RefTable": "DAP_CONTRACT"
+  },
+  {
+    "ViewSchema": "apldap",
+    "ViewName": "DAP_PBM_AGREEMENT",
+    "RefSchema": "odsdap",
+    "RefTable": "DAP_AGREEMENT"
+  },
+  {
+    "ViewSchema": "apldap",
+    "ViewName": "DAP_PBM_AGREEMENTVEHICLE",
+    "RefSchema": "odsdap",
+    "RefTable": "DAP_AGREEMENTVEHICLE"
+  },
+  {
+    "ViewSchema": "apldap",
+    "ViewName": "DAP_PBM_AGREEMENTVEHICLEBONUSTYPEPAYMENTLINE",
+    "RefSchema": "odsdap",
+    "RefTable": "DAP_AGREEMENTVEHICLEBONUSTYPEPAYMENTLINE"
+  },
+  {
+    "ViewSchema": "apldap",
+    "ViewName": "DAP_PBM_AGREEMENTVEHICLEINVOICELINE",
+    "RefSchema": "odsdap",
+    "RefTable": "DAP_AGREEMENTVEHICLEINVOICELINE"
+  },
+  {
+    "ViewSchema": "apldap",
+    "ViewName": "DAP_PBM_CONTRACT",
+    "RefSchema": "odsdap",
+    "RefTable": "DAP_CONTRACT"
+  },
+  {
+    "ViewSchema": "apldap",
+    "ViewName": "DAP_PBM_CONTRACTCALCULATIONLINE",
+    "RefSchema": "odsdap",
+    "RefTable": "DAP_CONTRACTCALCULATIONLINE"
+  },
+  {
+    "ViewSchema": "apldap",
+    "ViewName": "DAP_PBM_CONTRACTDEALER",
+    "RefSchema": "odsdap",
+    "RefTable": "DAP_CONTRACTDEALER"
+  },
+  {
+    "ViewSchema": "apldap",
+    "ViewName": "DAP_PBM_CONTRACTDEALERBRAND",
+    "RefSchema": "odsdap",
+    "RefTable": "DAP_CONTRACTDEALERBRAND"
+  },
+  {
+    "ViewSchema": "apldap",
+    "ViewName": "DAP_PBM_INVOICE",
+    "RefSchema": "odsdap",
+    "RefTable": "DAP_INVOICE"
+  },
+  {
+    "ViewSchema": "apldap",
+    "ViewName": "DAP_PBM_VEHICLE",
+    "RefSchema": "odsdap",
+    "RefTable": "DAP_VEHICLE"
+  },
+  {
+    "ViewSchema": "apldap",
+    "ViewName": "DAP_PBM_VEHICLE_DISCOUNT_ACCRUAL",
+    "RefSchema": "odsdap",
+    "RefTable": "DAP_AGREEMENTVEHICLE"
+  },
+  {
+    "ViewSchema": "apldap",
+    "ViewName": "DAP_PBM_VEHICLECONTRACTAGREEMENT",
+    "RefSchema": "odsdap",
+    "RefTable": "DAP_VEHICLECONTRACTAGREEMENT"
+  },
+  {
+    "ViewSchema": "apldap",
+    "ViewName": "DAP_PBM_VEHICLEHISTORYFINANCIAL",
+    "RefSchema": "odsdap",
+    "RefTable": "DAP_VEHICLEHISTORYFINANCIAL"
+  },
+  {
+    "ViewSchema": "apldap",
+    "ViewName": "DAP_PBM_VEHICLEJOURNALEVENT",
+    "RefSchema": "odsdap",
+    "RefTable": "DAP_VEHICLEJOURNALEVENT"
+  },
+  {
+    "ViewSchema": "apldap",
+    "ViewName": "DAP_PBM_VEHICLENCPCORRECTION",
+    "RefSchema": "odsdap",
+    "RefTable": "DAP_VEHICLENCPCORRECTION"
+  },
+  {
+    "ViewSchema": "apldap",
+    "ViewName": "DAP_VEHICLE",
+    "RefSchema": "odsdap",
+    "RefTable": "DAP_VEHICLE"
+  },
+  {
+    "ViewSchema": "apldap",
+    "ViewName": "DAP_VEHICLE_CUSTOMER_GROUP",
+    "RefSchema": "odsdap",
+    "RefTable": "DAP_VEHICLE"
+  },
+  {
+    "ViewSchema": "apldap",
+    "ViewName": "DAP_VEHICLECONTRACTAGREEMENT",
+    "RefSchema": "odsdap",
+    "RefTable": "DAP_VEHICLECONTRACTAGREEMENT"
+  },
+  {
+    "ViewSchema": "aplftm",
+    "ViewName": "FTM_NWC",
+    "RefSchema": "odsftm",
+    "RefTable": "FTM_NWC"
+  },
+  {
+    "ViewSchema": "aplftm",
+    "ViewName": "FTM_SEASONALITY",
+    "RefSchema": "odsftm",
+    "RefTable": "FTM"
+  },
+  {
+    "ViewSchema": "aplftm",
+    "ViewName": "FTM_TARGETS",
+    "RefSchema": "odsftm",
+    "RefTable": "FTM"
+  },
+  {
+    "ViewSchema": "aplga",
+    "ViewName": "WEB_ADOBE_EMA",
+    "RefSchema": "odsga",
+    "RefTable": "WEBDATA_SESSIONS_EMA"
+  },
+  {
+    "ViewSchema": "aplga",
+    "ViewName": "WEB_ADOBE_EMA_VW_AW",
+    "RefSchema": "odsga",
+    "RefTable": "WEBDATA_EMA_SESSIONS_AW"
+  },
+  {
+    "ViewSchema": "aplga",
+    "ViewName": "WEB_BRAND_SESSIONS_ADOBE",
+    "RefSchema": "odsga",
+    "RefTable": "GA_AA_AUDI_CONFIGURATIONS"
+  },
+  {
+    "ViewSchema": "aplga",
+    "ViewName": "WEB_BRAND_SESSIONS_SKODA_GA4",
+    "RefSchema": "odsga",
+    "RefTable": "GA_SESSIONS"
+  },
+  {
+    "ViewSchema": "aplga",
+    "ViewName": "WEB_BRAND_SESSIONS_SKODA_GA4",
+    "RefSchema": "odsga",
+    "RefTable": "WEBDATA_SESSIONS"
+  },
+  {
+    "ViewSchema": "apljra",
+    "ViewName": "JIRA_ISSUE_INFO",
+    "RefSchema": "odsjra",
+    "RefTable": "JIRA_ISSUES"
+  },
+  {
+    "ViewSchema": "apljra",
+    "ViewName": "JIRA_ISSUES",
+    "RefSchema": "odsjra",
+    "RefTable": "JIRA_ISSUES"
+  },
+  {
+    "ViewSchema": "apljra",
+    "ViewName": "JIRA_ISSUES",
+    "RefSchema": "odsjra",
+    "RefTable": "JIRA_ISSUETYPE"
+  },
+  {
+    "ViewSchema": "apljra",
+    "ViewName": "JIRA_ISSUES",
+    "RefSchema": "odsjra",
+    "RefTable": "JIRA_PRIORITY"
+  },
+  {
+    "ViewSchema": "apljra",
+    "ViewName": "JIRA_ISSUES",
+    "RefSchema": "odsjra",
+    "RefTable": "JIRA_PROJECTS"
+  },
+  {
+    "ViewSchema": "apljra",
+    "ViewName": "JIRA_ISSUES",
+    "RefSchema": "odsjra",
+    "RefTable": "JIRA_STATUS"
+  },
+  {
+    "ViewSchema": "apljra",
+    "ViewName": "JIRA_USERS",
+    "RefSchema": "odsjra",
+    "RefTable": "JIRA_USERS"
+  },
+  {
+    "ViewSchema": "aplmc",
+    "ViewName": "MARKETINGCLOUD",
+    "RefSchema": "odsmc",
+    "RefTable": "MARKETINGCLOUD"
+  },
+  {
+    "ViewSchema": "aplmdm",
+    "ViewName": "KBR_DATAMANAGEMENT",
+    "RefSchema": "odsmdm",
+    "RefTable": "KBR_DataManagement"
+  },
+  {
+    "ViewSchema": "aplmds",
+    "ViewName": "MODEL_CHARACTERISTIC",
+    "RefSchema": "odsmds",
+    "RefTable": "MDS_BRAND"
+  },
+  {
+    "ViewSchema": "aplmds",
+    "ViewName": "MODEL_CHARACTERISTIC",
+    "RefSchema": "odsmds",
+    "RefTable": "MDS_MODEL"
+  },
+  {
+    "ViewSchema": "aplmds",
+    "ViewName": "MODEL_CHARACTERISTIC",
+    "RefSchema": "odsmds",
+    "RefTable": "MDS_MODELGENERATION"
+  },
+  {
+    "ViewSchema": "aplmds",
+    "ViewName": "MODEL_CHARACTERISTIC",
+    "RefSchema": "odsmds",
+    "RefTable": "MDS_OEMTYPE"
+  },
+  {
+    "ViewSchema": "aplmds",
+    "ViewName": "MODEL_CHARACTERISTIC",
+    "RefSchema": "odsmds",
+    "RefTable": "MDS_PONCATALOGCAR"
+  },
+  {
+    "ViewSchema": "aplmds",
+    "ViewName": "MODEL_CHARACTERISTIC",
+    "RefSchema": "odsmds",
+    "RefTable": "MDS_TRIMLINE"
+  },
+  {
+    "ViewSchema": "aplmds",
+    "ViewName": "MODEL_CHARACTERISTIC_COLOR",
+    "RefSchema": "odsmds",
+    "RefTable": "MDS_OEMTYPE"
+  },
+  {
+    "ViewSchema": "aplmds",
+    "ViewName": "MODEL_CHARACTERISTIC_COLOR",
+    "RefSchema": "odsmds",
+    "RefTable": "MDS_OPTIONS"
+  },
+  {
+    "ViewSchema": "aplmds",
+    "ViewName": "MODEL_CHARACTERISTIC_COLOR",
+    "RefSchema": "odsmds",
+    "RefTable": "MDS_PONCATALOGCAR"
+  },
+  {
+    "ViewSchema": "aplmds",
+    "ViewName": "MODEL_CHARACTERISTIC_INTERIOR",
+    "RefSchema": "odsmds",
+    "RefTable": "MDS_OEMTYPE"
+  },
+  {
+    "ViewSchema": "aplmds",
+    "ViewName": "MODEL_CHARACTERISTIC_INTERIOR",
+    "RefSchema": "odsmds",
+    "RefTable": "MDS_OPTIONS"
+  },
+  {
+    "ViewSchema": "aplmds",
+    "ViewName": "MODEL_CHARACTERISTIC_INTERIOR",
+    "RefSchema": "odsmds",
+    "RefTable": "MDS_PONCATALOGCAR"
+  },
+  {
+    "ViewSchema": "aplmds",
+    "ViewName": "MODEL_CHARACTERISTIC_OPTION",
+    "RefSchema": "odsmds",
+    "RefTable": "MDS_OEMTYPE"
+  },
+  {
+    "ViewSchema": "aplmds",
+    "ViewName": "MODEL_CHARACTERISTIC_OPTION",
+    "RefSchema": "odsmds",
+    "RefTable": "MDS_OPTIONCATEGORY"
+  },
+  {
+    "ViewSchema": "aplmds",
+    "ViewName": "MODEL_CHARACTERISTIC_OPTION",
+    "RefSchema": "odsmds",
+    "RefTable": "MDS_OPTIONS"
+  },
+  {
+    "ViewSchema": "aplmds",
+    "ViewName": "MODEL_CHARACTERISTIC_OPTION",
+    "RefSchema": "odsmds",
+    "RefTable": "MDS_PONCATALOGCAR"
+  },
+  {
+    "ViewSchema": "aplndn",
+    "ViewName": "NADIN_VEHICLE",
+    "RefSchema": "odsmds",
+    "RefTable": "MDS_PONCATALOGCAR"
+  },
+  {
+    "ViewSchema": "aplndn",
+    "ViewName": "NADIN_VEHICLE",
+    "RefSchema": "odsndn",
+    "RefTable": "NADIN_VEHICLE"
+  },
+  {
+    "ViewSchema": "aplndn",
+    "ViewName": "NADIN_VEHICLE_EVENT_CHECKPOINT",
+    "RefSchema": "odsndn",
+    "RefTable": "NADIN_VEHICLE"
+  },
+  {
+    "ViewSchema": "aplndn",
+    "ViewName": "NADIN_VEHICLE_EVENT_CHECKPOINT",
+    "RefSchema": "odsndn",
+    "RefTable": "NADIN_VEHICLE_EVENT_CHECKPOINT"
+  },
+  {
+    "ViewSchema": "aplndn",
+    "ViewName": "NADIN_VEHICLE_EVENT_CHECKPOINT",
+    "RefSchema": "odsndn",
+    "RefTable": "NADIN_VEHICLE_SHIPPINGDATA"
+  },
+  {
+    "ViewSchema": "aplndn",
+    "ViewName": "NADIN_VEHICLE_EVENT_DEALER",
+    "RefSchema": "odsndn",
+    "RefTable": "NADIN_VEHICLE"
+  },
+  {
+    "ViewSchema": "aplndn",
+    "ViewName": "NADIN_VEHICLE_EVENT_DEALER",
+    "RefSchema": "odsndn",
+    "RefTable": "NADIN_VEHICLE_EVENT_DEALER"
+  },
+  {
+    "ViewSchema": "aplndn",
+    "ViewName": "NADIN_VEHICLE_EVENT_EDI",
+    "RefSchema": "odsndn",
+    "RefTable": "NADIN_VEHICLE"
+  },
+  {
+    "ViewSchema": "aplndn",
+    "ViewName": "NADIN_VEHICLE_EVENT_EDI",
+    "RefSchema": "odsndn",
+    "RefTable": "NADIN_VEHICLE_EVENT_CHECKPOINT"
+  },
+  {
+    "ViewSchema": "aplndn",
+    "ViewName": "NADIN_VEHICLE_EVENT_EDI",
+    "RefSchema": "odsndn",
+    "RefTable": "NADIN_VEHICLE_EVENT_HISTORY"
+  },
+  {
+    "ViewSchema": "aplndn",
+    "ViewName": "NADIN_VEHICLE_EVENT_HISTORY",
+    "RefSchema": "odsndn",
+    "RefTable": "NADIN_VEHICLE"
+  },
+  {
+    "ViewSchema": "aplndn",
+    "ViewName": "NADIN_VEHICLE_EVENT_HISTORY",
+    "RefSchema": "odsndn",
+    "RefTable": "NADIN_VEHICLE_EVENT_CHECKPOINT"
+  },
+  {
+    "ViewSchema": "aplndn",
+    "ViewName": "NADIN_VEHICLE_EVENT_HISTORY",
+    "RefSchema": "odsndn",
+    "RefTable": "NADIN_VEHICLE_EVENT_HISTORY"
+  },
+  {
+    "ViewSchema": "aplndn",
+    "ViewName": "NADIN_VEHICLE_EVENT_HISTORY_FIN",
+    "RefSchema": "odsndn",
+    "RefTable": "NADIN_VEHICLE"
+  },
+  {
+    "ViewSchema": "aplndn",
+    "ViewName": "NADIN_VEHICLE_EVENT_HISTORY_FIN",
+    "RefSchema": "odsndn",
+    "RefTable": "NADIN_VEHICLE_EVENT_CHECKPOINT"
+  },
+  {
+    "ViewSchema": "aplndn",
+    "ViewName": "NADIN_VEHICLE_EVENT_HISTORY_FIN",
+    "RefSchema": "odsndn",
+    "RefTable": "NADIN_VEHICLE_EVENT_HISTORY"
+  },
+  {
+    "ViewSchema": "aplndn",
+    "ViewName": "NADIN_VEHICLE_EVENT_VEHICLE",
+    "RefSchema": "odsndn",
+    "RefTable": "NADIN_VEHICLE"
+  },
+  {
+    "ViewSchema": "aplndn",
+    "ViewName": "NADIN_VEHICLE_EVENT_VEHICLE",
+    "RefSchema": "odsndn",
+    "RefTable": "NADIN_VEHICLE_EVENT_CHECKPOINT"
+  },
+  {
+    "ViewSchema": "aplndn",
+    "ViewName": "NADIN_VEHICLE_EVENT_VEHICLE",
+    "RefSchema": "odsndn",
+    "RefTable": "NADIN_VEHICLE_EVENT_HISTORY"
+  },
+  {
+    "ViewSchema": "aplndn",
+    "ViewName": "NADIN_VEHICLE_INVOICE_PURCHASE",
+    "RefSchema": "odsndn",
+    "RefTable": "NADIN_VEHICLE"
+  },
+  {
+    "ViewSchema": "aplndn",
+    "ViewName": "NADIN_VEHICLE_INVOICE_PURCHASE",
+    "RefSchema": "odsndn",
+    "RefTable": "NADIN_VEHICLE_INVOICE_PURCHASE"
+  },
+  {
+    "ViewSchema": "aplndn",
+    "ViewName": "NADIN_VEHICLE_INVOICE_SALES",
+    "RefSchema": "odsndn",
+    "RefTable": "NADIN_VEHICLE"
+  },
+  {
+    "ViewSchema": "aplndn",
+    "ViewName": "NADIN_VEHICLE_INVOICE_SALES",
+    "RefSchema": "odsndn",
+    "RefTable": "NADIN_VEHICLE_INVOICE_PURCHASE"
+  },
+  {
+    "ViewSchema": "aplndn",
+    "ViewName": "NADIN_VEHICLE_INVOICE_SALES",
+    "RefSchema": "odsndn",
+    "RefTable": "NADIN_VEHICLE_INVOICE_SALES"
+  },
+  {
+    "ViewSchema": "aplndn",
+    "ViewName": "NADIN_VEHICLE_VEHICLE_CHARACTERISTIC_OPTION",
+    "RefSchema": "odsndn",
+    "RefTable": "NADIN_VEHICLE"
+  },
+  {
+    "ViewSchema": "aplndn",
+    "ViewName": "NADIN_VEHICLE_VEHICLE_CHARACTERISTIC_OPTION",
+    "RefSchema": "odsndn",
+    "RefTable": "NADIN_VEHICLE_OPTION"
+  },
+  {
+    "ViewSchema": "aplpfm",
+    "ViewName": "PFMS_ASSETS",
+    "RefSchema": "odspfm",
+    "RefTable": "PFMS_MAINASSETS"
+  },
+  {
+    "ViewSchema": "aplpfm",
+    "ViewName": "PFMS_CONTRACT",
+    "RefSchema": "odspfm",
+    "RefTable": "PFMS_CONTRACTS"
+  },
+  {
+    "ViewSchema": "aplpfm",
+    "ViewName": "PFMS_CONTRACT_MONTHLYRATES",
+    "RefSchema": "odspfm",
+    "RefTable": "PFMS_CONTRACTS"
+  },
+  {
+    "ViewSchema": "aplpfm",
+    "ViewName": "PFMS_CONTRACT_MONTHLYRATES",
+    "RefSchema": "odspfm",
+    "RefTable": "PFMS_MONTHLYRATES"
+  },
+  {
+    "ViewSchema": "aplpfm",
+    "ViewName": "PFMS_CONTRACT_WORKSHOPVISIT",
+    "RefSchema": "odspfm",
+    "RefTable": "PFMS_CONTRACTS"
+  },
+  {
+    "ViewSchema": "aplpfm",
+    "ViewName": "PFMS_CONTRACT_WORKSHOPVISIT",
+    "RefSchema": "odspfm",
+    "RefTable": "PFMS_MAINTENANCEHISTORIES"
+  },
+  {
+    "ViewSchema": "aplpfm",
+    "ViewName": "PFMS_CUSTOMER_CONTRACT",
+    "RefSchema": "odspfm",
+    "RefTable": "PFMS_CONTRACTS"
+  },
+  {
+    "ViewSchema": "aplpfm",
+    "ViewName": "PFMS_CUSTOMER_ORGANIZATION",
+    "RefSchema": "odspfm",
+    "RefTable": "PFMS_DEBTORS"
+  },
+  {
+    "ViewSchema": "aplpfm",
+    "ViewName": "PFMS_CUSTOMER_ORGANIZATION",
+    "RefSchema": "odspfm",
+    "RefTable": "PFMS_ORGANIZATIONS"
+  },
+  {
+    "ViewSchema": "aplppo",
+    "ViewName": "Doelen",
+    "RefSchema": "odsppo",
+    "RefTable": "DoelenPMP1"
+  },
+  {
+    "ViewSchema": "aplppo",
+    "ViewName": "Doelen",
+    "RefSchema": "odsftm",
+    "RefTable": "FTM"
+  },
+  {
+    "ViewSchema": "aplppo",
+    "ViewName": "HFM_DATA_BULK",
+    "RefSchema": "odsppo",
+    "RefTable": "HFM_DATA_BULK"
+  },
+  {
+    "ViewSchema": "aplppo",
+    "ViewName": "IPSOS_KTV",
+    "RefSchema": "odsppo",
+    "RefTable": "IPSOS_KTV"
+  },
+  {
+    "ViewSchema": "aplppo",
+    "ViewName": "nora",
+    "RefSchema": "odsppo",
+    "RefTable": "nora"
+  },
+  {
+    "ViewSchema": "aplppo",
+    "ViewName": "Opkomstindex",
+    "RefSchema": "odsppo",
+    "RefTable": "Opkomstindex"
+  },
+  {
+    "ViewSchema": "aplref",
+    "ViewName": "EDW_DEALER_SCORECARD_WEIGHTING",
+    "RefSchema": "odsref",
+    "RefTable": "EDW_DEALER_SCORECARD_WEIGHTING"
+  },
+  {
+    "ViewSchema": "aplref",
+    "ViewName": "EDW_DFM_STOCKFINANCING_CUSTOMERS",
+    "RefSchema": "odsref",
+    "RefTable": "EDW_DFM_STOCKFINANCING_CUSTOMERS"
+  },
+  {
+    "ViewSchema": "aplref",
+    "ViewName": "EDW_EVENTTYPE",
+    "RefSchema": "odsref",
+    "RefTable": "EDW_EVENTTYPE"
+  },
+  {
+    "ViewSchema": "aplref",
+    "ViewName": "VEHICLE_ADDEDOBJECT_RDW",
+    "RefSchema": "odsref",
+    "RefTable": "VEHICLE_ADDEDOBJECT_RDW"
+  },
+  {
+    "ViewSchema": "aplref",
+    "ViewName": "VEHICLE_BODYWORKTYPE",
+    "RefSchema": "odsref",
+    "RefTable": "VEHICLE_BODYWORKTYPE"
+  },
+  {
+    "ViewSchema": "aplref",
+    "ViewName": "VEHICLE_BRANCH_RDW",
+    "RefSchema": "odsref",
+    "RefTable": "VEHICLE_BRANCH_RDW"
+  },
+  {
+    "ViewSchema": "aplref",
+    "ViewName": "VEHICLE_BRAND_PA",
+    "RefSchema": "odsref",
+    "RefTable": "VEHICLE_BRAND_PA"
+  },
+  {
+    "ViewSchema": "aplref",
+    "ViewName": "VEHICLE_BRAND_RDW",
+    "RefSchema": "odsref",
+    "RefTable": "VEHICLE_BRAND_RDW"
+  },
+  {
+    "ViewSchema": "aplref",
+    "ViewName": "VEHICLE_BUSINESSGROUP",
+    "RefSchema": "odsref",
+    "RefTable": "VEHICLE_BUSINESSGROUP"
+  },
+  {
+    "ViewSchema": "aplref",
+    "ViewName": "VEHICLE_CATEGORYCODE_RDW",
+    "RefSchema": "odsref",
+    "RefTable": "VEHICLE_CATEGORYCODE_RDW"
+  },
+  {
+    "ViewSchema": "aplref",
+    "ViewName": "VEHICLE_COLOR_RDW",
+    "RefSchema": "odsref",
+    "RefTable": "VEHICLE_COLOR_RDW"
+  },
+  {
+    "ViewSchema": "aplref",
+    "ViewName": "VEHICLE_CONSTRUCTION_YEAR_SEGMENT",
+    "RefSchema": "odsref",
+    "RefTable": "VEHICLE_CONSTRUCTION_YEAR_SEGMENT"
+  },
+  {
+    "ViewSchema": "aplref",
+    "ViewName": "VEHICLE_CUSTOMER_GROUP",
+    "RefSchema": "odsref",
+    "RefTable": "VEHICLE_CUSTOMER_GROUP"
+  },
+  {
+    "ViewSchema": "aplref",
+    "ViewName": "VEHICLE_CUSTOMER_ORDER",
+    "RefSchema": "odsref",
+    "RefTable": "VEHICLE_CUSTOMER_ORDER"
+  },
+  {
+    "ViewSchema": "aplref",
+    "ViewName": "VEHICLE_CUSTOMER_SEGMENT",
+    "RefSchema": "odsref",
+    "RefTable": "VEHICLE_CUSTOMER_SEGMENT"
+  },
+  {
+    "ViewSchema": "aplref",
+    "ViewName": "VEHICLE_DEVICECODE_RDW",
+    "RefSchema": "odsref",
+    "RefTable": "VEHICLE_DEVICECODE_RDW"
+  },
+  {
+    "ViewSchema": "aplref",
+    "ViewName": "VEHICLE_EVENTSTATUS",
+    "RefSchema": "odsref",
+    "RefTable": "VEHICLE_EVENTSTATUS"
+  },
+  {
+    "ViewSchema": "aplref",
+    "ViewName": "VEHICLE_EVENTTYPE",
+    "RefSchema": "odsref",
+    "RefTable": "VEHICLE_EVENTTYPE"
+  },
+  {
+    "ViewSchema": "aplref",
+    "ViewName": "VEHICLE_EXTENDED_ATTRIBUTES",
+    "RefSchema": "odsref",
+    "RefTable": "VEHICLE_EXTENDED_ATTRIBUTES"
+  },
+  {
+    "ViewSchema": "aplref",
+    "ViewName": "VEHICLE_FACTORY_PA",
+    "RefSchema": "odsref",
+    "RefTable": "VEHICLE_FACTORY_PA"
+  },
+  {
+    "ViewSchema": "aplref",
+    "ViewName": "VEHICLE_FUELTYPE",
+    "RefSchema": "odsref",
+    "RefTable": "VEHICLE_FUELTYPE"
+  },
+  {
+    "ViewSchema": "aplref",
+    "ViewName": "VEHICLE_MODELOEMCODE",
+    "RefSchema": "odsref",
+    "RefTable": "VEHICLE_MODELOEMCODE"
+  },
+  {
+    "ViewSchema": "aplref",
+    "ViewName": "VEHICLE_MODELTYPE",
+    "RefSchema": "odsref",
+    "RefTable": "VEHICLE_MODELTYPE"
+  },
+  {
+    "ViewSchema": "aplref",
+    "ViewName": "VEHICLE_MODELWRITTENLANGUAGE",
+    "RefSchema": "odsref",
+    "RefTable": "VEHICLE_MODELWRITTENLANGUAGE"
+  },
+  {
+    "ViewSchema": "aplref",
+    "ViewName": "VEHICLE_PORSCHE",
+    "RefSchema": "odsref",
+    "RefTable": "VEHICLE_PORSCHE"
+  },
+  {
+    "ViewSchema": "aplref",
+    "ViewName": "VEHICLE_REFERENCETYPE_RDW",
+    "RefSchema": "odsref",
+    "RefTable": "VEHICLE_REFERENCETYPE_RDW"
+  },
+  {
+    "ViewSchema": "aplref",
+    "ViewName": "VEHICLE_SEGMENT_RDW",
+    "RefSchema": "odsref",
+    "RefTable": "VEHICLE_SEGMENT_RDW"
+  },
+  {
+    "ViewSchema": "aplref",
+    "ViewName": "VEHICLE_SEGMENT_RDW_MAN",
+    "RefSchema": "odsref",
+    "RefTable": "VEHICLE_SEGMENT_RDW_MAN"
+  },
+  {
+    "ViewSchema": "aplref",
+    "ViewName": "VEHICLE_STATUS_IDS",
+    "RefSchema": "odsref",
+    "RefTable": "VEHICLE_STATUS_IDS"
+  },
+  {
+    "ViewSchema": "aplref",
+    "ViewName": "VEHICLE_STATUS_LOGACTION",
+    "RefSchema": "odsref",
+    "RefTable": "VEHICLE_STATUS_LOGACTION"
+  },
+  {
+    "ViewSchema": "aplref",
+    "ViewName": "VEHICLE_STATUS_RDW",
+    "RefSchema": "odsref",
+    "RefTable": "VEHICLE_STATUS_RDW"
+  },
+  {
+    "ViewSchema": "aplref",
+    "ViewName": "VEHICLE_VINYEAR",
+    "RefSchema": "odsref",
+    "RefTable": "VEHICLE_VINYEAR"
+  },
+  {
+    "ViewSchema": "aplref",
+    "ViewName": "VEHICLE_VIP_EXPORT_PARTNER",
+    "RefSchema": "odsref",
+    "RefTable": "VEHICLE_VIP_EXPORT_PARTNER"
+  },
+  {
+    "ViewSchema": "aplref",
+    "ViewName": "VEHICLE_WEB_MODEL",
+    "RefSchema": "odsref",
+    "RefTable": "VEHICLE_WEB_MODEL"
+  },
+  {
+    "ViewSchema": "aplrtm",
+    "ViewName": "NADIN_VEHICLE_ERROR",
+    "RefSchema": "odsndn",
+    "RefTable": "NADIN_VEHICLE_ERROR"
+  },
+  {
+    "ViewSchema": "aplrtm",
+    "ViewName": "NADIN_VEHICLE_ERROR",
+    "RefSchema": "odsndn",
+    "RefTable": "NADIN_VEHICLE_EVENT_HISTORY"
+  },
+  {
+    "ViewSchema": "aplrtm",
+    "ViewName": "NADIN_VEHICLE_ERROR",
+    "RefSchema": "odsndn",
+    "RefTable": "NADIN_VEHICLE_OPTION"
+  },
+  {
+    "ViewSchema": "aplrtm",
+    "ViewName": "NADIN_VEHICLE_EVENT_REALTIME",
+    "RefSchema": "odsndn",
+    "RefTable": "NADIN_VEHICLE"
+  },
+  {
+    "ViewSchema": "aplrtm",
+    "ViewName": "NADIN_VEHICLE_EVENT_REALTIME",
+    "RefSchema": "aplndn",
+    "RefTable": "NADIN_VEHICLE_EVENT_EDI"
+  },
+  {
+    "ViewSchema": "aplrtm",
+    "ViewName": "NADIN_VEHICLE_EVENT_REALTIME",
+    "RefSchema": "aplndn",
+    "RefTable": "NADIN_VEHICLE_EVENT_HISTORY"
+  },
+  {
+    "ViewSchema": "aplrtm",
+    "ViewName": "NADIN_VEHICLE_EVENT_REALTIME",
+    "RefSchema": "odsndn",
+    "RefTable": "NADIN_VEHICLE_EVENT_HISTORY"
+  },
+  {
+    "ViewSchema": "aplsap",
+    "ViewName": "SAP_OA_BUSINESSPARTNER",
+    "RefSchema": "odssap",
+    "RefTable": "SAP_BUSINESSPARTNER"
+  },
+  {
+    "ViewSchema": "aplsap",
+    "ViewName": "SAP_OA_MTB_BILLING_DOCUMENT",
+    "RefSchema": "odssap",
+    "RefTable": "SAP_BILLING_DOCUMENT"
+  },
+  {
+    "ViewSchema": "aplsap",
+    "ViewName": "SAP_OA_MTB_ORDERLINE",
+    "RefSchema": "odssap",
+    "RefTable": "SAP_SALES_ORDERHEADER"
+  },
+  {
+    "ViewSchema": "aplsap",
+    "ViewName": "SAP_OA_MTB_ORDERLINE",
+    "RefSchema": "odssap",
+    "RefTable": "SAP_SALES_ORDERLINE"
+  },
+  {
+    "ViewSchema": "aplsap",
+    "ViewName": "SAP_OA_MTB_ORDERLINE",
+    "RefSchema": "odssap",
+    "RefTable": "SAP_SALES_ORDERLINE_PRICE"
+  },
+  {
+    "ViewSchema": "aplsap",
+    "ViewName": "SAP_OA_MTB_STOCK",
+    "RefSchema": "odssap",
+    "RefTable": "SAP_STOCK"
+  },
+  {
+    "ViewSchema": "aplsap",
+    "ViewName": "SAP_OA_PLANT",
+    "RefSchema": "odssap",
+    "RefTable": "SAP_WAREHOUSE"
+  },
+  {
+    "ViewSchema": "aplsap",
+    "ViewName": "SAP_OA_PRODUCT",
+    "RefSchema": "odssap",
+    "RefTable": "SAP_PRODUCT"
+  },
+  {
+    "ViewSchema": "aplsap",
+    "ViewName": "SAP_OA_PRODUCT",
+    "RefSchema": "odssap",
+    "RefTable": "SAP_PRODUCT_HIERARCHY"
+  },
+  {
+    "ViewSchema": "aplsap",
+    "ViewName": "SAP_OA_PRODUCT",
+    "RefSchema": "odssap",
+    "RefTable": "SAP_PRODUCT_HIERARCHY_NODES"
+  },
+  {
+    "ViewSchema": "aplsap",
+    "ViewName": "SAP_OA_PRODUCT",
+    "RefSchema": "odssap",
+    "RefTable": "SAP_PRODUCT_SUPPLYPLANNING"
+  },
+  {
+    "ViewSchema": "aplsap",
+    "ViewName": "SAP_OA_PRODUCT",
+    "RefSchema": "odssap",
+    "RefTable": "SAP_PURCHASE_INFORECORD"
+  },
+  {
+    "ViewSchema": "aplsap",
+    "ViewName": "SAP_OA_PRODUCT_PLANT_VALUATION",
+    "RefSchema": "odssap",
+    "RefTable": "SAP_PRODUCT_PLANT_VALUATION"
+  },
+  {
+    "ViewSchema": "aplsap",
+    "ViewName": "SAP_OA_PRODUCT_SALES_DELIVERY",
+    "RefSchema": "odssap",
+    "RefTable": "SAP_PRODUCT_SALES_DELIVERY"
+  },
+  {
+    "ViewSchema": "aplsap",
+    "ViewName": "SAP_OA_PURCHASE_INFORECORD",
+    "RefSchema": "odssap",
+    "RefTable": "SAP_PURCHASE_INFORECORD"
+  },
+  {
+    "ViewSchema": "aplsap",
+    "ViewName": "SAP_OA_SALESORGANIZATION",
+    "RefSchema": "odssap",
+    "RefTable": "SAP_SALESORGANIZATION"
+  },
+  {
+    "ViewSchema": "aplsap",
+    "ViewName": "SAP_OA_SUPPLIER",
+    "RefSchema": "odssap",
+    "RefTable": "SAP_BUSINESSPARTNER"
+  },
+  {
+    "ViewSchema": "aplsap",
+    "ViewName": "SAP_OA_WAREHOUSE",
+    "RefSchema": "odssap",
+    "RefTable": "SAP_STORAGE_LOCATION"
+  },
+  {
+    "ViewSchema": "aplsap",
+    "ViewName": "SAP_OA_WAREHOUSE",
+    "RefSchema": "odssap",
+    "RefTable": "SAP_WAREHOUSE"
+  },
+  {
+    "ViewSchema": "aplsap",
+    "ViewName": "SAP_TRANSACTIONS",
+    "RefSchema": "odssap",
+    "RefTable": "SAP_TRANSACTIONS"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "AW_ACCOUNT",
+    "RefSchema": "odssf",
+    "RefTable": "SF_ACCOUNT"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "AW_ACCOUNT",
+    "RefSchema": "odssf",
+    "RefTable": "SF_CONTACT"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "AW_ACCOUNT",
+    "RefSchema": "odssf",
+    "RefTable": "SF_RECORDTYPE"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "AW_ASSET",
+    "RefSchema": "odssf",
+    "RefTable": "BV_SF_ASSET"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "AW_ASSIGNEDRESOURCE",
+    "RefSchema": "odssf",
+    "RefTable": "SF_ASSIGNEDRESOURCE"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "AW_CAMPAIGN",
+    "RefSchema": "odssf",
+    "RefTable": "SF_CAMPAIGN"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "AW_CAMPAIGNMEMBER",
+    "RefSchema": "odssf",
+    "RefTable": "SF_ACCOUNT"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "AW_CAMPAIGNMEMBER",
+    "RefSchema": "odssf",
+    "RefTable": "SF_CAMPAIGN"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "AW_CAMPAIGNMEMBER",
+    "RefSchema": "odssf",
+    "RefTable": "SF_CAMPAIGNMEMBER"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "AW_CAMPAIGNMEMBER",
+    "RefSchema": "odssf",
+    "RefTable": "SF_CONTACT"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "AW_CAMPAIGNMEMBER",
+    "RefSchema": "odssf",
+    "RefTable": "SF_RECORDTYPE"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "AW_CASE",
+    "RefSchema": "odssf",
+    "RefTable": "SF_CASE"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "AW_CASEFEED",
+    "RefSchema": "odssf",
+    "RefTable": "SF_CASEFEED"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "AW_CUSTOMER_PROFILE",
+    "RefSchema": "odssf",
+    "RefTable": "SF_CUSTOMER_PROFILE"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "AW_FULFILLMENTORDER",
+    "RefSchema": "odssf",
+    "RefTable": "SF_FULFILLMENTORDER"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "AW_FULFILLMENTORDERLINEITEM",
+    "RefSchema": "odssf",
+    "RefTable": "SF_FULFILLMENTORDERLINEITEM"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "AW_IMPORTERCOMMUNICATIONPERMISSION",
+    "RefSchema": "odssf",
+    "RefTable": "SF_ACCOUNT"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "AW_IMPORTERCOMMUNICATIONPERMISSION",
+    "RefSchema": "odssf",
+    "RefTable": "SF_COMMUNICATION_PERMISSION"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "AW_IMPORTERCOMMUNICATIONPERMISSION",
+    "RefSchema": "odssf",
+    "RefTable": "SF_RECORDTYPE"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "AW_KNOWLEDGE_KAV",
+    "RefSchema": "odssf",
+    "RefTable": "SF_KNOWLEDGE_KAV"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "AW_ONLINE_SALES_ORDERS",
+    "RefSchema": "odssf",
+    "RefTable": "SF_ACCOUNT"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "AW_ONLINE_SALES_ORDERS",
+    "RefSchema": "odssf",
+    "RefTable": "SF_DEALER"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "AW_ONLINE_SALES_ORDERS",
+    "RefSchema": "odssf",
+    "RefTable": "SF_ORDER"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "AW_ONLINE_SALES_ORDERS",
+    "RefSchema": "odssf",
+    "RefTable": "SF_ORDERHISTORY"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "AW_ONLINE_SALES_ORDERS",
+    "RefSchema": "odssf",
+    "RefTable": "SF_RECORDTYPE"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "AW_OPPORTUNITY",
+    "RefSchema": "odssf",
+    "RefTable": "SF_OPPORTUNITY"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "AW_OPPORTUNITYLINEITEM",
+    "RefSchema": "odssf",
+    "RefTable": "SF_OPPORTUNITYLINEITEM"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "AW_ORDER",
+    "RefSchema": "odssf",
+    "RefTable": "SF_ORDER"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "AW_ORDERITEM",
+    "RefSchema": "odssf",
+    "RefTable": "SF_ORDERITEM"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "AW_ORDERSUMMARY",
+    "RefSchema": "odssf",
+    "RefTable": "SF_ORDERSUMMARY"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "AW_PARTNER",
+    "RefSchema": "odssf",
+    "RefTable": "SF_PARTNER"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "AW_PRODUCT",
+    "RefSchema": "odssf",
+    "RefTable": "SF_PRODUCT"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "AW_QUOTE",
+    "RefSchema": "odssf",
+    "RefTable": "SF_QUOTE"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "AW_QUOTELINEITEM",
+    "RefSchema": "odssf",
+    "RefTable": "SF_QUOTELINEITEM"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "AW_SERVICEAPPOINTMENT",
+    "RefSchema": "odssf",
+    "RefTable": "SF_SERVICEAPPOINTMENT"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "AW_SERVICERESOURCE",
+    "RefSchema": "odssf",
+    "RefTable": "SF_SERVICERESOURCE"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "AW_SERVICETERRITORY",
+    "RefSchema": "odssf",
+    "RefTable": "SF_SERVICETERRITORY"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "AW_TASK",
+    "RefSchema": "odssf",
+    "RefTable": "SF_LEAD"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "AW_TASK",
+    "RefSchema": "odssf",
+    "RefTable": "SF_TASK"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "AW_WORKTYPE",
+    "RefSchema": "odssf",
+    "RefTable": "SF_WORKTYPE"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "DQ_ASSET",
+    "RefSchema": "odssf",
+    "RefTable": "SF_ASSET"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "DQ_ASSET",
+    "RefSchema": "odssf",
+    "RefTable": "SF_RECORDTYPE"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "DQ_VEHICLE",
+    "RefSchema": "odssf",
+    "RefTable": "SF_ASSET"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "DQ_VEHICLE",
+    "RefSchema": "odssf",
+    "RefTable": "SF_RECORDTYPE"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "EDW_ACCOUNT",
+    "RefSchema": "odssf",
+    "RefTable": "SF_ACCOUNT"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "EDW_ACCOUNT",
+    "RefSchema": "odssf",
+    "RefTable": "SF_CONTACT"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "EDW_ACCOUNT",
+    "RefSchema": "odssf",
+    "RefTable": "SF_RECORDTYPE"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "EDW_ASSET",
+    "RefSchema": "odssf",
+    "RefTable": "BV_SF_ASSET"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "EDW_ASSET_CONFIGURATION_RELATION",
+    "RefSchema": "odssf",
+    "RefTable": "SF_ASSET"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "EDW_ASSET_CONFIGURATION_RELATION",
+    "RefSchema": "odssf",
+    "RefTable": "SF_ASSET_CONFIGURATION_RELATION"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "EDW_CROSS_REFERENCE",
+    "RefSchema": "odssf",
+    "RefTable": "SF_CROSS_REFERENCE"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "EDW_FULFILLMENTORDER",
+    "RefSchema": "odssf",
+    "RefTable": "SF_ACCOUNT"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "EDW_FULFILLMENTORDER",
+    "RefSchema": "odssf",
+    "RefTable": "SF_ASSET"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "EDW_FULFILLMENTORDER",
+    "RefSchema": "odssf",
+    "RefTable": "SF_FULFILLMENTORDER"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "EDW_FULFILLMENTORDER",
+    "RefSchema": "odssf",
+    "RefTable": "SF_ORDERSUMMARY"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "EDW_FULFILLMENTORDER",
+    "RefSchema": "odssf",
+    "RefTable": "SF_PARTNER"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "EDW_LEADS",
+    "RefSchema": "odssf",
+    "RefTable": "BV_SF_LEADS"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "EDW_OPPORTUNITY",
+    "RefSchema": "odssf",
+    "RefTable": "SF_ACCOUNT"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "EDW_OPPORTUNITY",
+    "RefSchema": "odssf",
+    "RefTable": "SF_ASSET"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "EDW_OPPORTUNITY",
+    "RefSchema": "odssf",
+    "RefTable": "SF_OPPORTUNITY"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "EDW_OPPORTUNITY",
+    "RefSchema": "odssf",
+    "RefTable": "SF_PARTNER"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "EDW_OPPORTUNITY",
+    "RefSchema": "odssf",
+    "RefTable": "SF_RECORDTYPE"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "EDW_ORDERSUMMARY",
+    "RefSchema": "odssf",
+    "RefTable": "SF_ACCOUNT"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "EDW_ORDERSUMMARY",
+    "RefSchema": "odssf",
+    "RefTable": "SF_ORDERSUMMARY"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "EDW_QUOTE",
+    "RefSchema": "odssf",
+    "RefTable": "SF_ACCOUNT"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "EDW_QUOTE",
+    "RefSchema": "odssf",
+    "RefTable": "SF_ASSET"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "EDW_QUOTE",
+    "RefSchema": "odssf",
+    "RefTable": "SF_OPPORTUNITY"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "EDW_QUOTE",
+    "RefSchema": "odssf",
+    "RefTable": "SF_PARTNER"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "EDW_QUOTE",
+    "RefSchema": "odssf",
+    "RefTable": "SF_QUOTE"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "EDW_QUOTE",
+    "RefSchema": "odssf",
+    "RefTable": "SF_QUOTELINEITEM"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "EDW_QUOTE",
+    "RefSchema": "odssf",
+    "RefTable": "SF_RECORDTYPE"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "EDW_QUOTE",
+    "RefSchema": "odssf",
+    "RefTable": "SF_USER"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "EDW_SERVICEAPPOINTMENT",
+    "RefSchema": "odssf",
+    "RefTable": "SF_ACCOUNT"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "EDW_SERVICEAPPOINTMENT",
+    "RefSchema": "odssf",
+    "RefTable": "SF_ASSET"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "EDW_SERVICEAPPOINTMENT",
+    "RefSchema": "odssf",
+    "RefTable": "SF_RECORDTYPE"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "EDW_SERVICEAPPOINTMENT",
+    "RefSchema": "odssf",
+    "RefTable": "SF_SERVICEAPPOINTMENT"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "EDW_SERVICEAPPOINTMENT",
+    "RefSchema": "odssf",
+    "RefTable": "SF_SERVICERESOURCE"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "EDW_SERVICEAPPOINTMENT",
+    "RefSchema": "odssf",
+    "RefTable": "SF_SERVICETERRITORY"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "EDW_SERVICEAPPOINTMENT",
+    "RefSchema": "odssf",
+    "RefTable": "SF_WORKTYPE"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "EDW_SURVEY_RESPONSE",
+    "RefSchema": "odssf",
+    "RefTable": "SF_ACCOUNT"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "EDW_SURVEY_RESPONSE",
+    "RefSchema": "odssf",
+    "RefTable": "SF_OPPORTUNITY"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "EDW_SURVEY_RESPONSE",
+    "RefSchema": "odssf",
+    "RefTable": "SF_RECORDTYPE"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "EDW_SURVEY_RESPONSE",
+    "RefSchema": "odssf",
+    "RefTable": "SF_SURVEY_REPONSE"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "EDW_VEHICLE",
+    "RefSchema": "odssf",
+    "RefTable": "SF_ACCOUNT"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "EDW_VEHICLE",
+    "RefSchema": "odssf",
+    "RefTable": "SF_ASSET"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "EDW_VEHICLE",
+    "RefSchema": "odssf",
+    "RefTable": "SF_RECORDTYPE"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "PARTNER",
+    "RefSchema": "odssf",
+    "RefTable": "SF_P_ORGANISATION"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "PARTNER_LOCATION",
+    "RefSchema": "odssf",
+    "RefTable": "SF_P_CHAMBER_OF_COMMERCE"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "PARTNER_LOCATION",
+    "RefSchema": "odssf",
+    "RefTable": "SF_P_LOCATION"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "PARTNER_LOCATION",
+    "RefSchema": "odssf",
+    "RefTable": "SF_P_ORGANISATION"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "PARTNER_LOCATION_ACTIVITY",
+    "RefSchema": "odssf",
+    "RefTable": "SF_P_ACTIVITY"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "PARTNER_LOCATION_ACTIVITY",
+    "RefSchema": "odssf",
+    "RefTable": "SF_P_ACTIVITY_LICENSE"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "PARTNER_LOCATION_ACTIVITY",
+    "RefSchema": "odssf",
+    "RefTable": "SF_P_LOCATION"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "PARTNER_LOCATION_ACTIVITY_POSTALCODE",
+    "RefSchema": "odssf",
+    "RefTable": "SF_P_ACTIVITY"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "PARTNER_LOCATION_ACTIVITY_POSTALCODE",
+    "RefSchema": "odssf",
+    "RefTable": "SF_P_ACTIVITY_LICENSE"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "PARTNER_LOCATION_ACTIVITY_POSTALCODE",
+    "RefSchema": "odssf",
+    "RefTable": "SF_P_ACTIVITY_LICENSE_POSTAL_CODE"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "PARTNER_LOCATION_ACTIVITY_POSTALCODE",
+    "RefSchema": "odssf",
+    "RefTable": "SF_P_LOCATION"
+  },
+  {
+    "ViewSchema": "aplsf",
+    "ViewName": "PARTNER_LOCATION_ACTIVITY_POSTALCODE",
+    "RefSchema": "odssf",
+    "RefTable": "SF_P_POSTAL_CODE"
+  },
+  {
+    "ViewSchema": "aplvip",
+    "ViewName": "LIB_MODEL_LIB",
+    "RefSchema": "odsvip",
+    "RefTable": "MODEL_LIB"
+  },
+  {
+    "ViewSchema": "aplvip",
+    "ViewName": "VIP_DEALEREVENTS",
+    "RefSchema": "odsvip",
+    "RefTable": "VIP_DEALEREVENTS"
+  },
+  {
+    "ViewSchema": "aplvrs",
+    "ViewName": "VRS_ASR_ASS",
+    "RefSchema": "odsvrs",
+    "RefTable": "VRS_ASR_ASS"
+  },
+  {
+    "ViewSchema": "aplvrs",
+    "ViewName": "VRS_ASR_ASS",
+    "RefSchema": "odsvrs",
+    "RefTable": "VRS_VEHICLE_EVENT"
+  }
+]

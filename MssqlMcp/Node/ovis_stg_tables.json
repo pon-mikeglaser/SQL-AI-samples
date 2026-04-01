@@ -1,0 +1,302 @@
+[
+  {
+    "SchemaName": "STAGING",
+    "TableName": "AUTOLINE_VEHICLE"
+  },
+  {
+    "SchemaName": "STAGING",
+    "TableName": "COMSET_VEHICLE"
+  },
+  {
+    "SchemaName": "STAGING",
+    "TableName": "COMSET_VEHICLE_EVENT_CHECKPOINT"
+  },
+  {
+    "SchemaName": "STAGING",
+    "TableName": "COMSET_VEHICLE_PORSCHE"
+  },
+  {
+    "SchemaName": "STAGING",
+    "TableName": "COMSET_VEHICLE_VT635"
+  },
+  {
+    "SchemaName": "STAGING",
+    "TableName": "DAP_VEHICLE_CUSTOMER_GROUP"
+  },
+  {
+    "SchemaName": "STAGING",
+    "TableName": "EDW_VEHICLE_PARTNER"
+  },
+  {
+    "SchemaName": "STAGING",
+    "TableName": "EDW_VEHICLE_PARTNER_BRAND_ACTIVITY"
+  },
+  {
+    "SchemaName": "STAGING",
+    "TableName": "FIS_VEHICLE_EVENT_INVOICE"
+  },
+  {
+    "SchemaName": "STAGING",
+    "TableName": "IDS_VEHICLE"
+  },
+  {
+    "SchemaName": "STAGING",
+    "TableName": "IDS_VEHICLE_CHARACTERISTIC"
+  },
+  {
+    "SchemaName": "STAGING",
+    "TableName": "IDS_VEHICLE_CHARACTERISTIC_COLOR"
+  },
+  {
+    "SchemaName": "STAGING",
+    "TableName": "IDS_VEHICLE_CHARACTERISTIC_INTERIOR"
+  },
+  {
+    "SchemaName": "STAGING",
+    "TableName": "IDS_VEHICLE_CHARACTERISTIC_OPTION"
+  },
+  {
+    "SchemaName": "STAGING",
+    "TableName": "IDS_VEHICLE_DESCRIPTION"
+  },
+  {
+    "SchemaName": "STAGING",
+    "TableName": "IDS_VEHICLE_EVENT_EDI"
+  },
+  {
+    "SchemaName": "STAGING",
+    "TableName": "IDS_VEHICLE_EVENT_HISTORY"
+  },
+  {
+    "SchemaName": "STAGING",
+    "TableName": "IDS_VEHICLE_EVENT_VEHICLE"
+  },
+  {
+    "SchemaName": "STAGING",
+    "TableName": "IDS_VEHICLE_INVOICE_PURCHASE"
+  },
+  {
+    "SchemaName": "STAGING",
+    "TableName": "IDS_VEHICLE_INVOICE_SALES"
+  },
+  {
+    "SchemaName": "STAGING",
+    "TableName": "IDS_VEHICLE_VEHICLE_CHARACTERISTIC_OPTION"
+  },
+  {
+    "SchemaName": "STAGING",
+    "TableName": "IDS_VEHICLE_WARRANTY"
+  },
+  {
+    "SchemaName": "STAGING",
+    "TableName": "IDSMAN_VEHICLE"
+  },
+  {
+    "SchemaName": "STAGING",
+    "TableName": "IDSMAN_VEHICLE_CHARACTERISTIC"
+  },
+  {
+    "SchemaName": "STAGING",
+    "TableName": "IDSMAN_VEHICLE_DESCRIPTION"
+  },
+  {
+    "SchemaName": "STAGING",
+    "TableName": "IDSMAN_VEHICLE_EVENT_HISTORY"
+  },
+  {
+    "SchemaName": "STAGING",
+    "TableName": "IDSMAN_VEHICLE_EVENT_VEHICLE"
+  },
+  {
+    "SchemaName": "STAGING",
+    "TableName": "IDSMAN_VEHICLE_WARRANTY"
+  },
+  {
+    "SchemaName": "STAGING",
+    "TableName": "LIB_VEHICLE_CHARACTERISTIC_PA"
+  },
+  {
+    "SchemaName": "STAGING",
+    "TableName": "MDS_VEHICLE_BODYWORKTYPE"
+  },
+  {
+    "SchemaName": "STAGING",
+    "TableName": "MDS_VEHICLE_BRAND_PA"
+  },
+  {
+    "SchemaName": "STAGING",
+    "TableName": "MDS_VEHICLE_BRAND_RDW"
+  },
+  {
+    "SchemaName": "STAGING",
+    "TableName": "MDS_VEHICLE_CATEGORYCODE_RDW"
+  },
+  {
+    "SchemaName": "STAGING",
+    "TableName": "MDS_VEHICLE_COLOR_RDW"
+  },
+  {
+    "SchemaName": "STAGING",
+    "TableName": "MDS_VEHICLE_CUSTOMER_ORDER"
+  },
+  {
+    "SchemaName": "STAGING",
+    "TableName": "MDS_VEHICLE_DEVICECODE_RDW"
+  },
+  {
+    "SchemaName": "STAGING",
+    "TableName": "MDS_VEHICLE_EVENTSTATUS"
+  },
+  {
+    "SchemaName": "STAGING",
+    "TableName": "MDS_VEHICLE_EVENTTYPE"
+  },
+  {
+    "SchemaName": "STAGING",
+    "TableName": "MDS_VEHICLE_FACTORY_PA"
+  },
+  {
+    "SchemaName": "STAGING",
+    "TableName": "MDS_VEHICLE_FUELTYPE"
+  },
+  {
+    "SchemaName": "STAGING",
+    "TableName": "MDS_VEHICLE_MODELOEMCODE"
+  },
+  {
+    "SchemaName": "STAGING",
+    "TableName": "MDS_VEHICLE_MODELWRITTENLANGUAGE"
+  },
+  {
+    "SchemaName": "STAGING",
+    "TableName": "MDS_VEHICLE_PORSCHE"
+  },
+  {
+    "SchemaName": "STAGING",
+    "TableName": "MDS_VEHICLE_REFERENCETYPE_RDW"
+  },
+  {
+    "SchemaName": "STAGING",
+    "TableName": "MDS_VEHICLE_SEGMENT_RDW"
+  },
+  {
+    "SchemaName": "STAGING",
+    "TableName": "MDS_VEHICLE_SEGMENT_RDW_MAN"
+  },
+  {
+    "SchemaName": "STAGING",
+    "TableName": "MDS_VEHICLE_STATUS_IDS"
+  },
+  {
+    "SchemaName": "STAGING",
+    "TableName": "MDS_VEHICLE_STATUS_LOGACTION"
+  },
+  {
+    "SchemaName": "STAGING",
+    "TableName": "MDS_VEHICLE_STATUS_RDW"
+  },
+  {
+    "SchemaName": "STAGING",
+    "TableName": "MDS_VEHICLE_VINYEAR"
+  },
+  {
+    "SchemaName": "STAGING",
+    "TableName": "MDX_WARRANTY_VEHICLE"
+  },
+  {
+    "SchemaName": "STAGING",
+    "TableName": "MODAS_RDW_VEHICLE"
+  },
+  {
+    "SchemaName": "STAGING",
+    "TableName": "MODAS_RDW_VEHICLE_CHARACTERISTIC"
+  },
+  {
+    "SchemaName": "STAGING",
+    "TableName": "MODAS_RDW_VEHICLE_EVENT"
+  },
+  {
+    "SchemaName": "STAGING",
+    "TableName": "MODAS_RDW_VEHICLE_ORGANISATION"
+  },
+  {
+    "SchemaName": "STAGING",
+    "TableName": "MODEL_VEHICLE_CHARACTERISTIC"
+  },
+  {
+    "SchemaName": "STAGING",
+    "TableName": "MODEL_VEHICLE_CHARACTERISTIC_COLOR"
+  },
+  {
+    "SchemaName": "STAGING",
+    "TableName": "MODEL_VEHICLE_CHARACTERISTIC_INTERIOR"
+  },
+  {
+    "SchemaName": "STAGING",
+    "TableName": "MODEL_VEHICLE_CHARACTERISTIC_OPTION"
+  },
+  {
+    "SchemaName": "STAGING",
+    "TableName": "NADIN_VEHICLE"
+  },
+  {
+    "SchemaName": "STAGING",
+    "TableName": "NADIN_VEHICLE_EVENT_CHECKPOINT"
+  },
+  {
+    "SchemaName": "STAGING",
+    "TableName": "NADIN_VEHICLE_EVENT_DEALER"
+  },
+  {
+    "SchemaName": "STAGING",
+    "TableName": "NADIN_VEHICLE_EVENT_EDI"
+  },
+  {
+    "SchemaName": "STAGING",
+    "TableName": "NADIN_VEHICLE_EVENT_HISTORY"
+  },
+  {
+    "SchemaName": "STAGING",
+    "TableName": "NADIN_VEHICLE_EVENT_VEHICLE"
+  },
+  {
+    "SchemaName": "STAGING",
+    "TableName": "NADIN_VEHICLE_INVOICE_PURCHASE"
+  },
+  {
+    "SchemaName": "STAGING",
+    "TableName": "NADIN_VEHICLE_INVOICE_SALES"
+  },
+  {
+    "SchemaName": "STAGING",
+    "TableName": "NADIN_VEHICLE_VEHICLE_CHARACTERISTIC_OPTION"
+  },
+  {
+    "SchemaName": "STAGING",
+    "TableName": "OVIONOVIS"
+  },
+  {
+    "SchemaName": "STAGING",
+    "TableName": "PL_VEHICLE_EVENT"
+  },
+  {
+    "SchemaName": "STAGING",
+    "TableName": "PL_VEHICLE_MODIFICATION"
+  },
+  {
+    "SchemaName": "STAGING",
+    "TableName": "PRV_SALES_OVI_TODAY"
+  },
+  {
+    "SchemaName": "STAGING",
+    "TableName": "SAP_VEHICLE_EVENT_INVOICE"
+  },
+  {
+    "SchemaName": "STAGING",
+    "TableName": "VIP_VEHICLE_EVENT_DEALER2"
+  },
+  {
+    "SchemaName": "STAGING",
+    "TableName": "VRS_VEHICLE_EVENT"
+  }
+]
